@@ -36,6 +36,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-007| A aplicação deve disponibilizar o calendário para o usurário | Média | 
 |RF-008| A aplicação deve disponibilizar o agendamento do evento para enviar notificações lembrando o usuário do compromisso com antecedência | Média | 
 |RF-009| A aplicação deve permitir convidar e inserir outros usuários dentro do evento para que eles também recebam as notificações de lembretes | Média | 
+|RF-010| A aplicação deve mostrar as quadras particulares e direcionar o usuário para o contato com o responsável do clube | Média | 
+|RF-011| A aplicação deve ter o ícone para acessar a funcionalidade LIBRAS no canto da página | Baixa | 
+|RF-012| A aplicação deve enviar notificações de incentivo a praticar tênis periodicamente | Baixa |
+|RF-013| A aplicação deve fornecer ao usuário a disponibilidade de fazer o "check-in" no momento que chegar ao local | Baixa |
 
 ## Descrição das estruturas:
 
