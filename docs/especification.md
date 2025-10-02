@@ -8,7 +8,7 @@
 
 ## Histórias de Usuários
 
-
+![Histórias de Usuários](img/historia_usuarios.png)
 
 ## Requisitos
 
@@ -17,10 +17,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 ### Requisitos Funcionais
 
 
-
 ### Requisitos não Funcionais
-
-
 
 
 ## Restrições
