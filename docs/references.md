@@ -1,19 +1,11 @@
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizadas no desenvolvimento do trabalho.
+BRASIL. Ministério do Desenvolvimento Social. Perfil do Cadastro Único, versão 9. Brasília, 2014. Disponível em: https://aplicacoes.mds.gov.br/sagirmps/ferramentas/docs/Perfil_CadastroUnico_V9.pdf. Acesso em: 27 set. 2025. 
 
-> **Links Úteis**:
-> - [Formato ABNT](https://www.normastecnicas.com/referencias/)
+Nações Unidas no Brasil. Todos os grupos sociais devem ter acesso a atividades físicas, alerta relatório do PNUD. Brasília: Nações Unidas Brasil, 26 set. 2017. Disponível em: https://brasil.un.org/pt-br/77716-todos-os-grupos-sociais-devem-ter-acesso-atividades-f%C3%ADsicas-alerta-relat%C3%B3rio-do-pnud. Acesso em: 27 set. 2025 
 
-Exemplos de referências bibliográficas:
+Nações Unidas Brasil. Saúde e Bem‑Estar: Objetivo de Desenvolvimento Sustentável 3. Disponível em: https://brasil.un.org/pt-br/sdgs/3. Acesso em: 27 set. 2025. 
 
-**[1]** - _ELMASRI, Ramez; NAVATHE, Sham. **Sistemas de banco de dados**. 7. ed. São Paulo: Pearson, c2019. E-book. ISBN 9788543025001._
+Organização Pan‑Americana da Saúde – OPAS. Atividade física. Disponível em: https://www.paho.org/pt/topicos/atividade-fisica. Acesso em: 27 set. 2025. 
 
-**[2]** - _COPPIN, Ben. **Inteligência artificial**. Rio de Janeiro, RJ: LTC, c2010. E-book. ISBN 978-85-216-2936-8._
-
-**[3]** - _CORMEN, Thomas H. et al. **Algoritmos: teoria e prática**. Rio de Janeiro, RJ: Elsevier, Campus, c2012. xvi, 926 p. ISBN 9788535236996._
-
-**[4]** - _SUTHERLAND, Jeffrey Victor. **Scrum: a arte de fazer o dobro do trabalho na metade do tempo**. 2. ed. rev. São Paulo, SP: Leya, 2016. 236, [4] p. ISBN 9788544104514._
-
-**[5]** - _RUSSELL, Stuart J.; NORVIG, Peter. **Inteligência artificial**. Rio de Janeiro: Elsevier, c2013. xxi, 988 p. ISBN 9788535237016._
-
+Organização Pan‑Americana da Saúde – OPAS. Cerca de 1,8 bilhão de adultos correm o risco de adoecer devido à falta de atividade física. 26 jun. 2024. Disponível em: https://www.paho.org/pt/noticias/26-6-2024-cerca-18-bilhao-adultos-correm-risco-adoecer-devido-falta-atividade-fisica. Acesso em: 27 set. 2025. 
