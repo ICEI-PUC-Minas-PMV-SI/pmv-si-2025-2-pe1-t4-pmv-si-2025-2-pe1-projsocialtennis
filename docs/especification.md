@@ -16,7 +16,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-
 |ID    | Descrição do Requisito | Prioridade |
 |------|------------------------|------------|
 |RF-001| A plataforma deve permitir o cadastro e login de usuários  | Alta |
@@ -34,6 +33,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-013| A aplicação deve fornecer ao usuário a disponibilidade de fazer o "check-in" no momento que chegar ao local | Baixa |
 
 ### Requisitos não Funcionais
+
+|ID    | Descrição do Requisito | Prioridade |
+|------|------------------------|------------|
+|RNF- 001 | A aplicação deve ser responsiva e funcionar em dispositivos móveis e desktops  | Alta |
+|RNF- 002 | A aplicação deve garantir segurança e proteção de dados dos usuários | Alta | 
+|RNF- 003 | A aplicação deve ter um design seguindo os padrões de boas práticas no mercado conforme as 10 heurísticas de Nielsen | Média |
+|RNF- 004 | O tempo de resposta da plataforma deve ser inferior a 3 segundos para ações principais | Média |
 
 
 ## Restrições
