@@ -25,10 +25,17 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito | Responsável | Artefato Criado |
-|------|------------------------|------------|-----------------|
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | João | index.html |
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês | Ana Paula | cadastro-noticia.html |
+|ID    | Descrição do Requisito | Prioridade |
+|------|------------------------|------------|
+|RF-001| A plataforma deve permitir o cadastro e login de usuários  | Alta |
+|RF-002| A aplicação deve permitir recuperação de senha por e-mail | Alta | 
+|RF-003| A aplicação deve fornecer um acompanhamento da previsão do tempo | Alta | 
+|RF-004| A aplicação deve permitir o usuário filtrar os valores de uso das quadras, inclusive as gratuitas | Alta | 
+|RF-005| A aplicação deve permitir a localização de quadras de tênis de acordo com a localização do usuário | Alta | 
+|RF-006| A aplicação deve fornecer detalhes do agendamento realizado | Média | 
+|RF-007| A aplicação deve disponibilizar o calendário para o usurário | Média | 
+|RF-008| A aplicação deve disponibilizar o agendamento do evento para enviar notificações lembrando o usuário do compromisso com antecedência | Média | 
+|RF-009| A aplicação deve permitir convidar e inserir outros usuários dentro do evento para que eles também recebam as notificações de lembretes | Média | 
 
 ## Descrição das estruturas:
 
