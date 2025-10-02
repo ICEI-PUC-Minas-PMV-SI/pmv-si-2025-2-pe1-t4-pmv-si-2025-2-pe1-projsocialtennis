@@ -8,7 +8,7 @@
 
 Fluxo para escolha e agendamento da quadras de tênis, composto por páginas que guiam o usuário desde a seleção da localização até a confirmação do agendamento.
 
-![Fluxo Onde Jogar](/img/userflow_escolhendo_onde_jogar.png)
+![Fluxo Onde Jogar](img/userflow_escolhendo_onde_jogar.png)
 
 
 ## Fluxo: Previsão do Tempo
