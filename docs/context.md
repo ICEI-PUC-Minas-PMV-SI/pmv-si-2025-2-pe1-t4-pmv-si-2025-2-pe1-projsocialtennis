@@ -1,54 +1,29 @@
 # Introdução
 
-Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
+A OMS (Organização Mundial da Saúde) alerta sobre a quantidade de pessoas que não praticaram os níveis recomendados de atividade física. Prova evidente disso são os dados divulgados em 2022, que consta o número de cerca de 1,8 bilhão de adultos (31%) em inatividade física, com a estimativa desse percentual aumentar para 35% até 2030, se essa tendência mencionada continuar. 
 
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
+O “Social Tennis” tem como propósito ser uma aplicação web focada em praticantes e aspirantes a praticantes de tênis de baixa renda¹ no Brasil, que buscam uma quadra, com preço acessível ou gratuita, mais próxima de sua região em que possam praticar o esporte e se socializar. Por meio de uma interface baseada nas 10 heurísticas de Jakob Nielsen, utilizadas como boas práticas no mercado, os usuários poderão visualizar quadras próximas, obter informações sobre disponibilidade, filtrar valores e gratuidades e até mesmo verificar a previsão do tempo. 
 
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
-
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
+¹baixa renda: de acordo com o Cadastro Único, entende-se como baixa renda as famílias com renda familiar per capita até meio salário-mínimo ou família que possua renda mensal total de todos os integrantes de até três salários-mínimos.
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, **não** é a hora de comentar sobre a solução/aplicação.
+Encontrar quadras de tênis no Brasil ainda é um desafio para praticantes e aspirantes a praticantes de baixa renda, seja por falta de informação centralizada ou pela baixa visibilidade dos espaços gratuitos disponíveis para a sociedade. Um levantamento realizado pela “TenisBrasil” identificou apenas 405 quadras públicas ou de baixo custo em 136 cidades do país. Na prática, jogadores que desejam treinar ou se divertir, muitas vezes, não sabem onde encontrar quadras próximas e quais horários estão disponíveis.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Outro problema, está na ausência de sistemas integrados de gestão: muitos espaços ainda dependem de ligações telefônicas ou informações dispersas em redes sociais. Tal contexto faz com que jogadores percam tempo e, em muitos casos, acabem desistindo da prática desse esporte. Além disso, quadras podem ficar subutilizadas, simplesmente, porque não há visibilidade suficiente de sua existência ou mesmo disponibilidade. Tal combinação de fatores, dessa forma, mostra que não basta apenas existir quadras, é necessário facilitar o acesso à informação, o que justifica a criação de uma aplicação que conecte jogadores a quadras pela web.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
-
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+O objetivo do projeto é desenvolver uma aplicação web front-end de localização de quadras de tênis para pessoas de baixa renda, próximas às suas regiões e que sejam gratuitas ou com preços mais acessíveis. Além disso, a aplicação web, em forma de website, permite mostrar, para o usuário, a previsão do tempo, a fim de que ele possa se organizar e não ter nenhum imprevisto por questões meteorológicas, calendário e filtragem de valores de agendamento de uso da quadra.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A importância deste projeto está no fato de que grande parte da população brasileira ainda enfrenta dificuldades de acesso à prática esportiva. O relatório do PNUD (Programa das Nações Unidas para o Desenvolvimento) aponta que 70% da população não pratica atividade física no tempo livre, reforçando desigualdades relacionadas a renda, gênero e região geográfica, enquanto estudos da USP (Universidade de São Paulo) mostram que pessoas de baixa renda fazem ainda menos exercícios devido à falta de espaços acessíveis e bem divulgados. Tais dados, desse modo, evidenciam o problema e motivam a equipe a propor uma solução que amplie a visibilidade das quadras de tênis e facilite o acesso, principalmente, para grupos de baixa renda. Assim, a escolha do tema e a definição dos objetivos estão diretamente ligadas à necessidade de democratizar o acesso ao esporte, tornando-o mais inclusivo e prático para diferentes perfis de usuários. 
 
-Lembre-se de pesquisar e utilizar números que justifiquem por que é importante que tal problema seja resolvido ou que mostrem o impacto do problema na vida das pessoas.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Portanto, para fundamentar essa escolha, foram utilizados dados estatísticos de fontes relevantes e confiáveis, como relatórios da ONU (Organização das Nações Unidas), o PNUD, e estudos acadêmicos da USP, que confirmam a baixa prática esportiva e a desigualdade de acesso a infraestrutura. O projeto justifica-se, sendo assim, não apenas pela relevância social do tema, mas também pela possibilidade de propor uma alternativa tecnológica que atue diretamente sobre as dificuldades identificadas. 
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+O "Social Tennis” tem como público-alvo pessoas de baixa renda que buscam quadras de tênis próximas a sua localidade, que sejam gratuitas ou de preço baixo. O projeto tem o seguinte público-alvo: 
+- Leonardo tem 16 anos, é morador de Belo Horizonte, e durante o seu tempo livre não pratica nenhum esporte. Porém, encontra dificuldades em adaptação para praticar esportes não popularizados, como o tênis. Ele deseja aprender esse esporte e encontrar um local mais próximo a sua residência para treinar.
+- Maria tem 27 anos, é moradora de São Paulo, e por muito tempo frequentava um clube da cidade. No entanto, por questões financeiras não conseguiu se manter sócia do clube e parou de praticar ténis. Ela deseja praticar novamente, mas precisa de um lugar mais acessível no quesito financeiro ou de preferência gratuito.  
