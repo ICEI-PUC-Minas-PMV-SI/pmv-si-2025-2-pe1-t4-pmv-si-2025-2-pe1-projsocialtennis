@@ -8,19 +8,22 @@ Fluxo de cadastro e login do usuário, permitindo criar conta com nome, endereç
 
 ## Fluxo: Escolher Onde Jogar
 
-Fluxo para escolha e agendamento da quadras de tênis, composto por páginas que guiam o usuário desde a seleção da localização até a confirmação do agendamento.
+Fluxo para escolha e agendamento de quadras de tênis, composto por páginas que guiam o usuário desde a seleção da localização até a confirmação do agendamento.
 
 ![Fluxo Onde Jogar](img/userflow_escolhendo_onde_jogar.png)
 
 
 ## Fluxo: Previsão do Tempo
 
+Ao clicar em menu, a pessoa consegue acessar, dentre outras funcionalidades, a previsão do tempo. Nesta sessão, o usuário consegue consultar a previsão do tempo de um dia e horário específico do local selecionado por ele. 
 
+![Fluxo Onde Jogar](img/userflow_previsao_do_tempo.png)
 
 ## Fluxo: Visualizar e Editar Perfil
 
+Na sessão “meu perfil”, a página permite que o usuário consiga visualizar sua foto de perfil e alguns de seus dados cadastrais, como nome e endereço. Clicando em “editar perfil”, o usuário vai para a sessão em que pode editar todos os seus dados cadastrais, são eles: nome, e-mail, endereço e senha. Depois de salvar as alterações, a aplicação informa que os dados foram salvos com sucesso.
 
-
+![Fluxo Onde Jogar](img/userflow_cadastrese_login.png)
 
 
 
