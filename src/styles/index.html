@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu estilo Cobasi</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <h1 class="logo">LOGO</h1>
+
+      <!-- Checkbox controla o menu -->
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+
+      <!-- Ícone hambúrguer -->
+      <label for="menu-toggle" class="menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <!-- Overlay escuro -->
+      <div class="overlay"></div>
+
+      <!-- Menu lateral -->
+      <nav class="menu-lateral">
+        <div class="menu-header">
+          <h2>Menu</h2>
+          <label for="menu-toggle" class="fechar">×</label>
+        </div>
+
+        <ul>
+          <li><a href="#jogar">Escolha onde Jogar</a></li>
+          <li><a href="#agendamento">Agendamento</a></li>
+          <li><a href="#previsaodotempo">Previsão do Tempo</a></li>
+          <li><a href="#meuperfil">Meu Perfil</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="clima">
+        <h2>Clima para o dia:</h2>
+    
+        <div class="inputs">
+          <input type="text" placeholder="dia">
+          <input type="text" placeholder="mês">
+          <input type="text" placeholder="ano">
+          <input type="text" placeholder="às">
+          <input type="text" placeholder="horário">
+        </div>
+    
+        <div class="card-clima">
+          <p class="local">Cidade, Estado</p>
+          <div class="icone-sol">☀️</div>
+          <h3 class="temp">25°C</h3>
+          <p class="descricao">Sol</p>
+        </div>
+    
+        <button class="btn-jogar">Escolha onde Jogar</button>
+      </section>
+    
+      <footer>
+        <p>© Todos os Direitos Reservados - Social Tennis - 2025</p>
+      </footer>
+    </main>
+  </body>
+</html>

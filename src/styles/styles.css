@@ -1,0 +1,260 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f6f8fa;
+  color: #222;
+}
+
+.clima {
+  text-align: center;
+  margin-top: 0px;
+  padding: 23px;
+}
+
+.clima h2 {
+  font-size: 1.6rem;
+  color: #1e1e2f;
+  margin-bottom: 25px;
+}
+
+/* Campos de data */
+.inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.inputs input {
+  background: #e5e5e5;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 1rem;
+  color: #333;
+  width: 90px;
+}
+
+.inputs input:focus {
+  outline: 2px solid #007dc6;
+}
+
+/* Card de clima */
+.card-clima {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 265px;
+  margin: 0 auto 27px auto;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.local {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.icone-sol {
+  font-size: 3rem;
+}
+
+.temp {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+}
+
+.descricao {
+  color: #777;
+  font-size: 1rem;
+}
+
+/* Botão principal */
+.btn-jogar {
+  background: #1e1e2f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-jogar:hover {
+  background: #007dc6;
+}
+
+/* Rodapé */
+footer {
+  background: #f1f1f1;
+  padding: 15px 10px;
+  text-align: center;
+  color: #555;
+  font-size: 0.9rem;
+  margin-top: 40px;
+}
+
+/* ===== CABEÇALHO ===== */
+.cabecalho {
+  background-color: #f2e4c9;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* centraliza tudo */
+  padding: 29px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* ===== MENU HAMBÚRGUER ===== */
+.menu-toggle {
+  display: none;
+}
+
+.menu-btn {
+  position: absolute;
+  left: 20px;  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 28px;
+  height: 20px;
+  cursor: pointer;
+  z-index: 20;
+}
+
+.menu-btn span {
+  display: block;
+  height: 3px;
+  background: #733D29;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+/* ===== MENU LATERAL ===== */
+.menu-lateral {
+  position: fixed;
+  top: 0;
+  left: -260px; /* começa fora da tela */
+  width: 250px;
+  height: 100%;
+  background: #fff;
+  box-shadow: 3px 0 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  transition: left 0.35s ease;
+  z-index: 15;
+}
+
+/* Cabeçalho dentro do menu */
+.menu-lateral .menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background: #BFA58E;
+  color: white;
+}
+
+.menu-lateral .fechar {
+  position: absolute;
+  right: 20px;  
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: white;
+}
+
+/* Links */
+.menu-lateral ul {
+  list-style: none;
+  padding: 20px;
+}
+
+.menu-lateral li {
+  margin-bottom: 15px;
+}
+
+.menu-lateral a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.1rem;
+  font-weight: 500;
+  display: block;
+  transition: all 0.2s ease;
+}
+
+.menu-lateral a:hover {
+  color: #00a8ff;
+  transform: translateX(4px);
+}
+
+/* ===== OVERLAY ===== */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 5;
+}
+
+/* ===== ABRIR MENU ===== */
+.menu-toggle:checked ~ .menu-lateral {
+  left: 0; /* desliza para dentro */
+}
+
+.menu-toggle:checked ~ .overlay {
+  opacity: 1;
+  pointer-events: all;
+}
+
+/* Anima o botão hambúrguer pra “X” */
+.menu-toggle:checked + .menu-btn span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.menu-toggle:checked + .menu-btn span:nth-child(2) {
+  opacity: 0;
+}
+.menu-toggle:checked + .menu-btn span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* ===== CONTEÚDO ===== */
+main {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+section {
+  background: white;
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
