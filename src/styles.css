@@ -258,3 +258,73 @@ section {
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
 }
+.escolha-local {
+  text-align: center;
+  margin-top: 60px;
+  padding: 30px 20px;
+}
+
+.escolha-local h2 {
+  font-size: 1.6rem;
+  color: #1e1e2f;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+/* Ícone (raquetes ou bola de tênis) */
+.icone-tenis {
+  font-size: 2.5rem;
+  margin-bottom: 25px;
+}
+
+/* Agrupamento dos campos */
+.form-local {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+/* Campos de entrada */
+.form-local input {
+  background: #d9d9d9;
+  border: none;
+  padding: 12px 15px;
+  border-radius: 6px;
+  width: 250px;
+  font-size: 1rem;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.form-local input:focus {
+  outline: 2px solid #007dc6;
+  background: #fff;
+}
+
+/* Botão principal */
+.btn-escolher {
+  background: #1e1e2f;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-escolher:hover {
+  background: #007dc6;
+}
+
+/* Rodapé */
+footer {
+  background: #f1f1f1;
+  padding: 15px 10px;
+  text-align: center;
+  color: #555;
+  font-size: 0.9rem;
+  margin-top: 50px;
+}
