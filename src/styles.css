@@ -119,6 +119,7 @@ footer {
 .cabecalho {
   background-color: #f2e4c9;
   color: white;
+  height: 70px;
   display: flex;
   align-items: center;
   justify-content: center; 
