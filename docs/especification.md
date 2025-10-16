@@ -2,13 +2,45 @@
 
 ## Personas
 
-- Leonardo tem 16 anos, é morador de Belo Horizonte, e durante o seu tempo livre não pratica nenhum esporte. Porém, encontra dificuldades em adaptação para praticar esportes não popularizados, como o tênis. Ele deseja aprender esse esporte e encontrar um local mais próximo a sua residência para treinar.  
-
+- Leonardo tem 16 anos, é morador de Belo Horizonte, e durante o seu tempo livre não pratica nenhum esporte. Porém, encontra dificuldades em adaptação para praticar esportes não popularizados, como o tênis. Ele deseja aprender esse esporte e encontrar um local mais próximo a sua residência para treinar.
+  
 - Maria tem 27 anos, é moradora de São Paulo, e por muito tempo frequentava um clube da cidade. No entanto, por questões financeiras não conseguiu se manter sócia do clube e parou de praticar ténis. Ela deseja praticar novamente, mas precisa de um lugar mais acessível no quesito financeiro ou de preferência gratuito.  
 
 ## Histórias de Usuários
 
-![Histórias de Usuários](img/historia_usuarios.png)
+## Tenista
+
+| Eu como... [QUEM] | ...quero/desejo... [O QUE] | ...para... [PORQUE] |
+|-----------|-----------|-----------|
+| Jogador  | Procurar quadras de tênis gratuitas ou de baixo custo, próximas à minha localização | Que eu possa encontrar um local para jogar sem gastar muito.  |
+| Jogador  | Filtrar as quadras por disponibilidade de horários e custos   | Que eu possa encontrar uma quadra que atenda às minhas necessidades específicas.  |
+| Jogador  | Ver informações detalhadas sobre cada quadra (endereço completo, fotos, horários disponíveis, regras de uso, contato do responsável) | Que eu possa decidir se a quadra é adequada para mim. |
+| Jogador  |  Consultar a previsão do tempo  | Ver se o dia em que vou agendar esteja adequado para jogar.  |
+
+## Gerente de Quadra
+
+| Eu como... [QUEM] | ...quero/desejo... [O QUE] | ...para... [PORQUE] |
+|-----------|-----------|-----------|
+| Gerente de Quadra  | Cadastrar novas quadras no sistema, incluindo todas as informações relevantes (endereço completo, fotos, horários disponíveis, regras de uso, contato do responsável) | Que os jogadores possam encontrar as quadras.  |
+| Gerente de Quadra  | Editar as informações de quadras já cadastradas  | Que os dados estejam sempre atualizados e corretos.  |
+| Gerente de Quadra  | Desativar ou remover quadras que não estão mais disponíveis  | Que os jogadores não percam tempo procurando locais indisponíveis.  |
+| Gerente de Quadra  | Disponibilizar as informações de contato  | Que os responsáveis ou locatários possam solicitar o cadastro de suas quadras.  |
+
+
+## Perfis de usuário 
+
+
+### Gerente de Quadra
+
+| Descrição: | O gerente de quadra é responsável por uma ou mais quadras de tênis. Ele pode ser um funcionário de um clube esportivo, um gestor de espaço público municipal, um coordenador de um centro comunitário ou até mesmo o proprietário de uma quadra particular que deseja disponibilizá-la gratuitamente ou a baixo custo para a comunidade.|
+|-----------|----------|
+| Necessidades: | Cadastrar e atualizar as quadras de tênis, incluindo endereço completo, fotos, horários disponíveis, regras de uso, contato do responsável.|
+
+### Tenista
+
+| Descrição: | Tenista de baixa renda que quer praticar o esporte, mas não tem condições de pagar a mensalidade de um clube ou até mesmo o aluguel de uma quadra.|
+|-----------|----------|
+| Necessidades:| Encontrar um local gratuito ou com preço acessível na sua região, onde possa praticar o tênis.|
 
 ## Requisitos
 
