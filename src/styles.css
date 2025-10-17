@@ -117,7 +117,7 @@ footer {
 
 /* ===== CABEÇALHO ===== */
 .cabecalho {
-  background-color: #f2e4c9;
+  background-color: #153a21;
   color: white;
   height: 70px;
   display: flex;
@@ -129,11 +129,14 @@ footer {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
 
-.logo {
-  font-size: 1.5rem;
-  font-weight: 700;
-  text-align: center;
+.logo-img {
+  height: 60px;         /* tamanho da logo */
+  width: auto;
+  object-fit: contain;  /* evita distorções */
+  background: none;     /* remove qualquer fundo */
+  filter: drop-shadow(0 2px 3px rgba(0,0,0,0.1)); /* leve destaque */
 }
+
 
 /* ===== MENU HAMBÚRGUER ===== */
 .menu-toggle {
@@ -155,7 +158,7 @@ footer {
 .menu-btn span {
   display: block;
   height: 3px;
-  background: #733D29;
+  background: #F2E4C9;
   border-radius: 3px;
   transition: all 0.3s ease;
 }
@@ -254,8 +257,9 @@ footer {
 
 /* ===== CONTEÚDO ===== */
 main {
-  margin-top: 120px;
+  margin-top: 50px;
   text-align: center;
+  flex: 1;
 }
 
 section {
@@ -326,12 +330,12 @@ section {
 }
 
 footer {
-  background: #f1f1f1;
+  background: #153a21;
   padding: 15px 10px;
   text-align: center;
-  color: #555;
+  color: #fcfcfc;
   font-size: 0.9rem;
-  margin-top: 50px;
+  margin-top: 195px;
 }
 
 .jogar-container {
@@ -510,18 +514,18 @@ footer {
   padding: 8px 10px;
   border-radius: 6px;
   font-size: 1rem;
-  margin-bottom: 25px;
+  margin-bottom: 32px;
 }
 
-.dados-agenda {
-  background: #f2f2f2;
+.main-oficial {
+  background: #d3d3d3;
   max-width: 500px;
   margin: 0 auto;
   padding: 25px;
   border-radius: 10px;
 }
 
-.dados-agenda h3 {
+.main-oficial h3 {
   margin-bottom: 15px;
 }
 
