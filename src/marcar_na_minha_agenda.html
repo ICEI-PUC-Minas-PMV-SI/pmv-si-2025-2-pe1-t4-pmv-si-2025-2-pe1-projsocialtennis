@@ -31,28 +31,38 @@
         </div>
 
         <ul>
-          <li><a href="#jogar">Escolha onde Jogar</a></li>
-          <li><a href="#agendamento">Agendamento</a></li>
+          <li><a href="#jogar">Escolha onde jogar</a></li>
+          <li><a href="#agendamento">Agenda</a></li>
           <li><a href="#previsaodotempo">Previsão do Tempo</a></li>
           <li><a href="#meuperfil">Meu Perfil</a></li>
         </ul>
       </nav>
     </header>
 
-    <main>
+    <main> 
       <section class="dados-agenda">
-        <h2>Escolha Onde Jogar</h2>
-        
-        <div class="form-local">
-            <input type="text" placeholder="Estado" name="estado" />
-            <input type="text" placeholder="Cidade" name="cidade" />
-            <input type="text" placeholder="Bairro" name="bairro" />
-          </div>
+      <h2>Marcar na minha agenda</h2>
 
-        <button class="btn-jogar">Escolher</button>
-      </section>
-    
-      <footer>
+      <div class="calendario">
+        <input type="date" />
+      </div>
+
+      <h3>Agendar para:</h3>
+        <div class="grupo">
+          <div class="campo">Dia<strong></strong></div>
+          <div class="campo">Mês<strong></strong></div>
+          <div class="campo">Ano<strong></strong></div>
+        </div>
+        <h3 class="horarios"><strong>Horário:</strong> </h3>
+
+        <div class="botoes">
+          <button class="btn-previsao">Ver previsão do tempo</button>
+          <button class="btn-agendar">Agendar</button>
+        </div>
+      </div>
+    </main>
+
+    <footer>
         <p>© Todos os Direitos Reservados - Social Tennis - 2025</p>
       </footer>
     </main>
