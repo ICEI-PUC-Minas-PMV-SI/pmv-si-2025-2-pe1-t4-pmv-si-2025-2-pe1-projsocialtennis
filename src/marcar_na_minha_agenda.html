@@ -3,13 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Previsão do tempo</title>
+    <title>Página Inicial</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="cabecalho">
       <h1 class="logo">LOGO</h1>
 
+      <!-- Checkbox controla o menu -->
       <input type="checkbox" id="menu-toggle" class="menu-toggle" />
 
       <!-- Ícone hambúrguer -->
@@ -19,6 +20,7 @@
         <span></span>
       </label>
 
+      <!-- Overlay escuro -->
       <div class="overlay"></div>
 
       <!-- Menu lateral -->
@@ -30,35 +32,37 @@
 
         <ul>
           <li><a href="#jogar">Escolha onde jogar</a></li>
-          <li><a href="#previsaodotempo">Previsão do tempo</a></li>
+          <li><a href="#agendamento">Agenda</a></li>
+          <li><a href="#previsaodotempo">Previsão do Tempo</a></li>
           <li><a href="#meuperfil">Meu Perfil</a></li>
         </ul>
       </nav>
     </header>
 
-    <main>
+    <main> 
       <section class="main-oficial">
-        <h2>Clima para o dia:</h2>
-    
-        <div class="inputs">
-          <input type="text" placeholder="Dia">
-          <input type="text" placeholder="Mês">
-          <input type="text" placeholder="Ano">
-            <p class="ordem">Às</p>
-          <input type="text" placeholder="Horário">
+      <h1>Marcar na minha agenda</h1>
+
+      <div class="calendario">
+        <input type="date" />
+      </div>
+
+      <h3>Agendar para:</h3>
+        <div class="grupo">
+          <div class="campo">Dia<strong></strong></div>
+          <div class="campo">Mês<strong></strong></div>
+          <div class="campo">Ano<strong></strong></div>
         </div>
-    
-        <div class="card-clima">
-          <p class="local">Cidade, Estado</p>
-          <div class="icone-sol">☀️</div>
-          <h3 class="temp">25°C</h3>
-          <p class="descricao">Sol</p>
+        <h3 class="horarios"><strong>Horário:</strong> </h3>
+
+        <div class="botoes">
+          <button class="btn-previsao">Ver previsão do tempo</button>
+          <button class="btn-agendar">Agendar</button>
         </div>
-    
-        <button class="btn-jogar">Escolha onde Jogar</button>
-      </section>
-    
-      <footer>
+      </div>
+    </main>
+
+    <footer>
         <p>© Todos os Direitos Reservados - Social Tennis - 2025</p>
       </footer>
     </main>

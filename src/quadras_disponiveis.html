@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <h1 class="logo">LOGO</h1>
+
+      <!-- Checkbox controla o menu -->
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+
+      <!-- Ícone hambúrguer -->
+      <label for="menu-toggle" class="menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <!-- Overlay escuro -->
+      <div class="overlay"></div>
+
+      <!-- Menu lateral -->
+      <nav class="menu-lateral">
+        <div class="menu-header">
+          <h2>Menu</h2>
+          <label for="menu-toggle" class="fechar">×</label>
+        </div>
+
+        <ul>
+          <li><a href="#jogar">Escolha onde jogar</a></li>
+          <li><a href="#agendamento">Agenda</a></li>
+          <li><a href="#previsaodotempo">Previsão do Tempo</a></li>
+          <li><a href="#meuperfil">Meu Perfil</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>  
+      <section class="main-oficial">
+        <h2>Escolha Onde Jogar</h2>
+        <div class="jogar-filtro"> 
+          <p>  Filtrar por: </p>
+          <label> 
+            <input type="Radio" name="filtro" checked />
+            Gratuita
+          </label>
+          <label>
+            <input type="Radio" name="filtro" />
+            Baixo custo
+          </label>
+        </div>
+        <div class="jogar-lista">
+          <div class="jogar-card">
+          <div class="jogar-imagem"></div>
+          <div class="jogar-info">
+            <h3> Parque Villa-Lobos </h3>
+            <p><strong>Cidade: </strong></p>
+            <p><strong>Bairro: </strong></p>
+            <p><strong>Preço: </strong></p>
+            <p><strong>Entrada:</strong></p>
+          </div>
+          <button class="jogar-botao">Escolher</button>
+        </div>
+        <div class="jogar-card">
+          <div class="jogar-imagem"></div>
+
+          <div class="jogar-info">
+            <h3> Parque Ibirapuera </h3>
+            <p><strong>Cidade: </strong></p>
+            <p><strong>Bairro: </strong></p>
+            <p><strong>Preço: </strong></p>
+            <p><strong>Entrada:</strong></p>
+          </div>
+          <button class="jogar-botao">Escolher</button>
+       </div>
+      </section>
+        
+     <footer>
+        <p>© Todos os Direitos Reservados - Social Tennis - 2025</p>
+      </footer>
+    </main>
+  </body>
+</html>
