@@ -22,6 +22,16 @@ body {
   margin-bottom: 25px;
 }
 
+#dados-agenda h2 {
+ margin-bottom: 38px;
+}
+
+#dados-agenda h3 {
+  margin-top: 8px;
+  font-weight: 500;
+  color: #333;
+}
+
 .inputs {
   display: flex;
   flex-wrap: wrap;
@@ -119,7 +129,7 @@ footer {
 .cabecalho {
   background-color: #153a21;
   color: white;
-  height: 70px;
+  height: 109px;
   display: flex;
   align-items: center;
   justify-content: center; 
@@ -130,7 +140,7 @@ footer {
 }
 
 .logo-img {
-  height: 60px;         /* tamanho da logo */
+  height: 160px;         /* tamanho da logo */
   width: auto;
   object-fit: contain;  /* evita distorções */
   background: none;     /* remove qualquer fundo */
@@ -333,7 +343,7 @@ footer {
   background: #153a21;
   padding: 15px 10px;
   text-align: center;
-  color: #fcfcfc;
+  color: #F2E4C9;
   font-size: 0.9rem;
   margin-top: 195px;
 }
