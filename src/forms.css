@@ -34,7 +34,7 @@
     border: 1px solid #ccc;
 }
 
-.box .entrarButton{
+.box .padraoButton{
     width: 100%;
     padding: 15px;
     border-radius: 10px;
@@ -46,7 +46,7 @@
     font-weight: bold;
 }
 
-.box .entrarButton:hover{
+.box .padraoButton:hover{
     background-color: #153a21;
 }
 
