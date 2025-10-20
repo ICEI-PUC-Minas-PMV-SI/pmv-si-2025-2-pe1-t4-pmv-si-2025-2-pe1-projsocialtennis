@@ -4,13 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SocialTennis - Editar Perfil</title>
-    <link rel="stylesheet" type="text/css" href="editarperfilstyle.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
     <header>
-         <nav>
-            <span class="menu">Menu</span>
-            <span class="logo">SocialTennis</span>
+        <nav class="cabecalho">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+        <nav class="menu-lateral">
+            <div class="menu-header">
+            <h2>Menu</h2>
+            <label for="menu-toggle" class="fechar">&times;</label>
+            </div>
+            <ul>
+                <li><a href="escolha_onde_jogar.html">Escolha onde jogar</a></li>
+                <li><a href="meusagendamentos.html">Meus agendamentos</a></li>
+                <li><a href="#">Previsão do tempo</a></li>
+                <li><a href="meuperfil.html">Meu perfil</a></li>
+            </ul>
+        </nav>
+            <div class="logo-img">
+                <img width="150" height="120"
+                src="logo-oficial.png">
+            </div>
         </nav>
     </header>
     <main>
@@ -18,7 +38,7 @@
         <div class="profile container">
             <div class="fotoperfil"> 
                 <img width="200" height="180"
-                src="" alt="Foto Perfil">
+                src="usuario.png" alt="Foto Perfil">
             </div>
             <div class="informacoes">
                 <p><strong>Nome Usuário</strong></p>
@@ -29,7 +49,7 @@
             editar email: <input type="text" name="email" value=""><br>
             editar endereço: <input type="text" name="endereco" placeholder="Rua, número, bairro, CEP, Cidade"><br>
             redefinir senha: <input type="password" name="senha" value=""><br>
-            <button type="submit" value="submit">salvar alterações</button>
+            <a href="alterarsalvo.html"><button type="submit" value="submit">salvar alterações</button></a>
         </form>
     </main>
     <footer>

@@ -1,13 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 body {
   background: #f6f8fa;
   color: #222;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .clima {
@@ -140,11 +145,12 @@ footer {
 }
 
 .logo-img {
-  height: 160px;         /* tamanho da logo */
+  margin-top: 30px;
+  height: 160px;         
   width: auto;
-  object-fit: contain;  /* evita distorções */
-  background: none;     /* remove qualquer fundo */
-  filter: drop-shadow(0 2px 3px rgba(0,0,0,0.1)); /* leve destaque */
+  object-fit: contain;  
+  background: none;  
+  filter: drop-shadow(0 2px 3px rgba(0,0,0,0.1)); 
 }
 
 
@@ -597,6 +603,72 @@ footer {
 
 .confirmacao-detalhes strong {
   color: #1e1e2f;
+}
+
+/* foto perfil e forms das páginas meu perfil */
+.informacoes {
+  font-size: 20px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.fotoperfil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px; 
+  margin-bottom: 30px;
+}
+
+.fotoperfil img {
+  width: 200px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  background-color: #ccc;
+}
+
+form {
+    background-color: #d9d9d9;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #333;
+    width: 350px;
+    margin: 0 auto; 
+    margin-top: 20px; 
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+button {
+    background-color: #153a21;   
+    color: white;            
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;              
+    border-radius: 5px;        
+    cursor: pointer;   
+    box-sizing: border-box;
+    text-transform: uppercase;       
+}
+
+button:hover {
+    background-color: #153a21;    
 }
 
 
