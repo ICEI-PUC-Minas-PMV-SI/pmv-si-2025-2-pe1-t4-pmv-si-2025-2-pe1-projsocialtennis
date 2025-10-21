@@ -517,7 +517,7 @@ footer {
 }
 
 .main-oficial {
-  background: #d3d3d3;
+  background: #eeeded;
   max-width: 500px;
   margin: 0 auto;
   padding: 25px;
@@ -664,7 +664,7 @@ footer {
   }
   
   .btn-previsao {
-    background: #999;
+    background: #1e1e2f;
     color: white;
     border: none;
     border-radius: 6px;
