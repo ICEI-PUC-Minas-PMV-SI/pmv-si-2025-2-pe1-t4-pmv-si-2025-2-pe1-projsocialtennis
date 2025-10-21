@@ -1,48 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home - Social Tennis</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="cabecalho">
-      <h1 class="logo">LOGO</h1>
 
-      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home - Social Tennis</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="home.css">
+</head>
 
-      <!-- Ícone hambúrguer -->
-      <label for="menu-toggle" class="menu-btn">
-        <span></span>
-        <span></span>
-        <span></span>
-      </label>
+<body>
+  <header class="cabecalho">
+    <h1 class="logo">LOGO</h1>
 
-      <div class="overlay"></div>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" />
 
-      <!-- Menu lateral -->
-      <nav class="menu-lateral">
-        <div class="menu-header">
-          <h2>Menu</h2>
-          <label for="menu-toggle" class="fechar">×</label>
-        </div>
+    <!-- Ícone hambúrguer -->
+    <label for="menu-toggle" class="menu-btn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
 
-        <ul>
-          <li><a href="#jogar">Escolha onde jogar</a></li>
-          <li><a href="#previsaodotempo">Previsão do tempo</a></li>
-          <li><a href="#meuperfil">Meu Perfil</a></li>
-        </ul>
-      </nav>
-    </header>
+    <div class="overlay"></div>
 
+    <!-- Menu lateral -->
+    <nav class="menu-lateral">
+      <div class="menu-header">
+        <h2>Menu</h2>
+        <label for="menu-toggle" class="fechar">×</label>
+      </div>
 
+      <ul>
+        <li><a href="#jogar">Escolha onde jogar</a></li>
+        <li><a href="#previsaodotempo">Previsão do tempo</a></li>
+        <li><a href="#meuperfil">Meu Perfil</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <section class="hero">
+    <div class="container">
+      <h1>Social Tennis</h1>
+      <p class="slogan">Conectando tenistas a quadras gratuitas e de baixo custo em todo o Brasil</p>
+      <a href="#projeto" class="btn">Saiba Mais</a>
+    </div>
+  </section>
 
+  <section class="sobre" id="projeto">
+    <div class="container">
+      <h2>O Projeto</h2>
+      <p>
+        O "Social Tennis" é uma plataforma desenvolvida para facilitar o acesso
+        ao tênis no Brasil. Aqui você pode encontrar quadras públicas e de baixo custo,
+        consultar a previsão do tempo e se conectar com outros jogadores.
+        Nossa missão é democratizar a prática do tênis e torná-lo acessível para todos.
+      </p>
+    </div>
+  </section>
 
-      <footer>
-        <p>© Todos os Direitos Reservados - Social Tennis - 2025</p>
-      </footer>
-    </main>
-  </body>
+  <footer>
+    <p>© Todos os Direitos Reservados - Social Tennis - 2025</p>
+  </footer>
+  </main>
+</body>
+
 </html>
