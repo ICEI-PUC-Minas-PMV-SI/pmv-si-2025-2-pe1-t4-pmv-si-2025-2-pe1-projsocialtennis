@@ -129,7 +129,6 @@ footer {
   margin-top: 40px;
 }
 
-/* ===== CABEÇALHO ===== */
 .cabecalho {
   background-color: #153a21;
   color: white;
@@ -144,16 +143,13 @@ footer {
 }
 
 .logo-img {
-  margin-top: 30px;
   height: 160px;         
   width: auto;
   object-fit: contain;  
-  background: none;  
-  filter: drop-shadow(0 2px 3px rgba(0,0,0,0.1)); 
+  background: none;     
+  filter: drop-shadow(0 2px 3px rgba(0,0,0,0.1));
 }
 
-
-/* ===== MENU HAMBÚRGUER ===== */
 .menu-toggle {
   display: none;
 }
@@ -178,7 +174,6 @@ footer {
   transition: all 0.3s ease;
 }
 
-/* ===== MENU LATERAL ===== */
 .menu-lateral {
   position: fixed;
   top: 0;
@@ -235,7 +230,6 @@ footer {
   transform: translateX(4px);
 }
 
-/* ===== OVERLAY ===== */
 .overlay {
   position: fixed;
   top: 0;
@@ -249,7 +243,6 @@ footer {
   z-index: 5;
 }
 
-/* ===== ABRIR MENU ===== */
 .menu-toggle:checked ~ .menu-lateral {
   left: 0; /* desliza para dentro */
 }
@@ -259,7 +252,6 @@ footer {
   pointer-events: all;
 }
 
-/* Animaçãp do botão hambúrguer pra “X” */
 .menu-toggle:checked + .menu-btn span:nth-child(1) {
   transform: rotate(45deg) translate(5px, 5px);
 }
@@ -270,7 +262,6 @@ footer {
   transform: rotate(-45deg) translate(5px, -5px);
 }
 
-/* ===== CONTEÚDO ===== */
 main {
   margin-top: 50px;
   text-align: center;
@@ -298,7 +289,6 @@ section {
   font-weight: 600;
 }
 
-/* Ícone (raquetes ou bola de tênis) */
 .icone-tenis {
   font-size: 2.5rem;
   margin-bottom: 25px;
@@ -312,7 +302,6 @@ section {
   margin-bottom: 25px;
 }
 
-/* Campos de entrada */
 .form-local input {
   background: #d9d9d9;
   border: none;
@@ -472,7 +461,6 @@ footer {
   font-size: 0.95rem;
 }
 
-/* Parques */
 .lista-parques {
   display: flex;
   flex-direction: column;
@@ -533,7 +521,7 @@ footer {
 }
 
 .main-oficial {
-  background: #d3d3d3;
+  background: #eeeded;
   max-width: 500px;
   margin: 0 auto;
   padding: 25px;
@@ -542,21 +530,6 @@ footer {
 
 .main-oficial h3 {
   margin-bottom: 15px;
-}
-
-.grupo {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin-bottom: 15px;
-}
-
-.campo {
-  background: #d9d9d9;
-  padding: 10px 15px;
-  border-radius: 6px;
-  text-transform: uppercase;
-  font-size: 0.95rem;
 }
 
 .horarios {
@@ -603,3 +576,157 @@ footer {
 .confirmacao-detalhes strong {
   color: #1e1e2f;
 }
+
+   .main-oficial h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #1e1e2f;
+  }
+  
+  .form-quadra {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+  
+  .form-quadra label {
+    font-weight: 600;
+    margin-bottom: 6px;
+    display: block;
+    color: #333;
+  }
+  
+  .form-quadra input,
+  .form-quadra textarea,
+  .form-quadra select {
+    width: 100%;
+    background: #e5e5e5;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 12px;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .form-quadra input:focus,
+  .form-quadra textarea:focus,
+  .form-quadra select:focus {
+    outline: 2px solid #007dc6;
+    background: #fff;
+  }
+  
+  .fotos-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .foto-box {
+    width: 90px;
+    height: 90px;
+    background: #d9d9d9;
+    border-radius: 8px;
+    display: grid;
+    place-items: center;
+    font-size: 2rem;
+    color: #555;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .foto-box:hover {
+    background: #cfcfcf;
+  }
+  
+  .add {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .botoes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 25px;
+  }
+  
+  .btn-previsao {
+    background: #1e1e2f;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .btn-previsao:hover {
+    background: #777;
+  }
+  
+  .btn-agendar {
+    background: #1e1e2f;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-agendar:hover {
+    background: #007dc6;
+  }
+
+.main-oficial h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #1e1e2f;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.main-oficial h3 {
+  text-align: center;
+  margin: 25px 0 15px 0;
+  color: #1e1e2f;
+  font-size: 1.2rem;
+}
+
+.grupo-quadras {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.quadras-ativas,
+.quadras-desativadas {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.quadra-card {
+  width: 110px;
+  height: 110px;
+  background: #d9d9d9;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.quadra-card:hover {
+  background: #cfcfcf;
+  transform: scale(1.03);
+}
+
+  
+
