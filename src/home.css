@@ -1,0 +1,64 @@
+/* ===== SEÇÃO 1 ===== */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.hero {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.hero .slogan {
+    font-size: 1.4rem;
+    color: #6c757d;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero .btn {
+    display: inline-block;
+    background-color: #198754;
+    color: white;
+    padding: 15px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+}
+
+.hero .btn:hover {
+    background-color: #157347;
+}
+
+/* ===== SEÇÃO 2 ===== */
+.sobre {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.sobre h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #2c3e50;
+}
+
+.sobre p {
+    font-size: 1.2rem;
+    color: #6c757d;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+}

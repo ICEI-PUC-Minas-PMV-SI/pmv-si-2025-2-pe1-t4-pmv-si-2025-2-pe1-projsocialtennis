@@ -1,0 +1,77 @@
+#formularioPadraoSection{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 450px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.box h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.box p{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 13px;
+}
+
+.box input{
+    width: 100%;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.box .padraoButton{
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 40px;
+    border: none;
+    background-color: #246d3b;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.box .padraoButton:hover{
+    background-color: #153a21;
+}
+
+.instrucoesAcesso{
+    margin-top: 25px;
+    text-align: center;
+}
+
+.instrucoesAcesso a{
+    color:#153a21;
+}
+
+.linkCadastro{
+    margin-top: 7px;
+}
+
+.formularioSelect{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-top: 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+.formularioSelect option[disabled]:first-child{
+    color: #999;
+}
