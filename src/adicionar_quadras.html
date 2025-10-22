@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+        <img src="logo-oficial.png" alt="Logo-Social-Tennis" class="logo-img" />
+
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+
+      <!-- Ícone hambúrguer -->
+      <label for="menu-toggle" class="menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <div class="overlay"></div>
+
+      <!-- Menu lateral -->
+      <nav class="menu-lateral">
+        <div class="menu-header">
+          <h2>Menu</h2>
+          <label for="menu-toggle" class="fechar">×</label>
+        </div>
+
+        <ul>
+          <li><a href="">Adicionar Novas Quadras</a></li>
+          <li><a href="">Editar Quadras Existentes</a></li>
+          <li><a href="">Meu Perfil</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <main>
+        <section class="main-oficial">
+          <h2>ADICIONAR QUADRA</h2>
+      
+          <form class="form-quadra">
+            <div class="campo">
+              <label for="nome">Nome:</label>
+              <input type="text" id="nome" placeholder="Digite o nome da quadra">
+            </div>
+      
+            <div class="campo">
+              <label for="preco">Preço:</label>
+              <input type="text" id="preco" placeholder="Ex: R$ 50,00 / hora">
+            </div>
+      
+            <div class="campo fotos">
+              <label>Adicionar/Editar Foto:</label>
+              <div class="fotos-container">
+                <div class="foto-box add">+</div>
+                <div class="foto-box"></div>
+                <div class="foto-box"></div>
+              </div>
+            </div>
+      
+            <div class="campo">
+              <label for="horario">Horário:</label>
+              <input type="text" id="horario" placeholder="Ex: 08:00 às 18:00">
+            </div>
+      
+            <div class="campo">
+              <label for="contato">Contato:</label>
+              <input type="text" id="contato" placeholder="Ex: (11) 99999-9999">
+            </div>
+      
+            <div class="campo">
+              <label for="endereco">Endereço:</label>
+              <input type="text" id="endereco" placeholder="Digite o endereço completo">
+            </div>
+      
+            <div class="campo">
+              <label for="regras">Regras de Uso:</label>
+              <textarea id="regras" rows="3" placeholder="Descreva as regras da quadra"></textarea>
+            </div>
+      
+            <div class="campo">
+              <label for="status">Status:</label>
+              <select id="status">
+                <option>Ativa</option>
+                <option>Inativa</option>
+              </select>
+            </div>
+      
+            <div class="botoes">
+              <button type="button" class="btn-previsao">Cancelar</button>
+              <button type="submit" class="btn-agendar">Adicionar</button>
+            </div>
+          </form>
+        </section>
+        <footer> 
+            <p>© Todos os Direitos Reservados - Social Tennis - 2025</p>
+        </footer>
+      </main>
+  </body>
+</html>
+      
