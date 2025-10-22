@@ -1,13 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 body {
   background: #f6f8fa;
   color: #222;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .clima {
@@ -60,7 +65,6 @@ body {
   color: #333;
   width: 43px;
 }
-
 
 .inputs input:focus {
   outline: 2px solid #007dc6;
@@ -143,7 +147,7 @@ footer {
   width: auto;
   object-fit: contain;  
   background: none;     
-  filter: drop-shadow(0 2px 3px rgba(0,0,0,0.1)); 
+  filter: drop-shadow(0 2px 3px rgba(0,0,0,0.1));
 }
 
 .menu-toggle {
