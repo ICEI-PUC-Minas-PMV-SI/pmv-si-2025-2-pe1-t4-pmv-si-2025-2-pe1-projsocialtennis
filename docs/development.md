@@ -1,5 +1,30 @@
 # Programação de Funcionalidades
 
+## Requisitos Atendidos
+
+As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais que relacionam o escopo do projeto com os artefatos criados:
+
+### Requisitos Funcionais
+
+|ID    | Descrição do Requisito | Artefato | Responsável |
+|------|------------------------|------------|------------|
+|RF-001| A aplicação deve permitir o cadastro de tenistas. | cadastro.html | Rodrigo |
+|RF-002| A aplicação deve permitir o login de gerentes de quadras e tenistas. | login.html | Rodrigo |
+|RF-003| A aplicação deve permitir recuperação de senha de gerentes de quadras e tenistas. | recuper_senha_passo1.html recuperar_senha_passo2.html | Rodrigo |
+|RF-004| A aplicação deve fornecer um acompanhamento da previsão do tempo para tenistas. | previsaotempo.html | Victor |
+|RF-005| A aplicação deve permitir o tenista filtrar os valores de uso das quadras, inclusive as gratuitas.| quadras_disponiveis.html | Victor |
+|RF-006| A aplicação deve permitir a localização de quadras de tênis de acordo com a localização fornecida pelo jogador. | escolha_onde_jogar.html | Victor |
+|RF-007| A aplicação deve permitir que os gerentes de quadras cadastrem novas quadras e edite as já existentes, inative ou até mesmo exclua. | adicionar_quadras.html editar_quadras.html | Victor |
+|RF-008| A aplicação deve permitir a disponibilização de contato para os responsáveis ou locatários de quadras. | adicionar_quadra.html | Victor |
+|RF-009| A aplicação deve fornecer detalhes do agendamento realizado pelo jogador. | agendamento_confirmado.html meusagendamentos.html | Victor e Luana |
+|RF-010| A aplicação deve disponibilizar o calendário para o jogador. | marcar_na_minha_agenda.html | Victor |
+|RF-011| A aplicação deve mostrar as quadras particulares e direcionar o usuário para o contato com o responsável do clube.  | não aplicado | 
+|RF-012| A aplicação deve ter o ícone para acessar a funcionalidade LIBRAS no canto da página.| nâo aplicado |
+
+
+
+
+
 Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
 
 Para cada requisito funcional, pode ser entregue um artefato desse tipo.
