@@ -25,7 +25,28 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 ### Descrição das estruturas:
 
-### Agendamento
+### Cadastro usuário
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**               |
+|:--------------:|-------------------|-------------------------------------------|---------------------------|
+| Nome           | Texto	           | Nome completo do usuário                  | Luana Cristina            |
+| Email          | Texto	           | Endereço de e-mail cadastrado	           | luana@gmail.com           |
+| Endereço	     | Texto             | Endereço completo do usuário	             | Rua das Flores, 123, Centro, Belo Horizonte, Minas Gerais |
+| Senha          | Texto             | Senha de acesso do usuário (armazenada de forma segura no sistema) | ******** |
+
+### Login usuário
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**               |
+|:--------------:|-------------------|-------------------------------------------|---------------------------|
+| Email          | Texto	           | Endereço de e-mail cadastrado	           | luana@gmail.com           |
+| Senha          | Texto             | Senha de acesso do usuário (armazenada de forma segura no sistema) | ******** |
+
+### Escolha onde jogar
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**               |
+|:--------------:|-------------------|-------------------------------------------|---------------------------|
+| Estado	       | Texto             | Estado do País onde se deseja pesquisar quadras próximas | Minas 1Gerais |
+| Cidade         | Texto             | Cidade onde se deseja pesquisar quadras próximas | Belo Horizonte |
+| Bairro         | Texto             | Bairro onde se deseja pesquisar quadras próximas | Savassi |
+
+### Agenda
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**               |
 |:--------------:|-------------------|-------------------------------------------|---------------------------|
 | Título         | Texto             | Nome do local onde o jogo será realizado  | Parque Villa Lobos        |
@@ -35,6 +56,18 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 | Cidade         | Texto             | Cidade do local do jogo	                 | São Paulo                 |
 | Valor Entrada	 | Texto	           | Valor da entrada no local	               | Gratuito                  |
 | Status	       | Texto	           | Situação atual do agendamento	           | Agendado                  |
+
+### Adicionar/Editar quadra
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**               |
+|:--------------:|-------------------|-------------------------------------------|---------------------------|
+| Nome           | Texto             | Nome da quadra                            | Parque Villa Lobos        |
+| Preço          | Texto             | Valor da entrada no local	               | Gratuito                  |
+| Adicionar/editar foto | Imagem     | Fotos da quadra	                         | imagem.png                |
+| Horário	     | Número (Inteiro)    | Horário de funcionamento do local	       | 07:00 - 11:00 15:00 - 19:00 |
+| Contato      |  Número (Inteiro)   | Telefone para contato ao local da quadra	 | +55 (00)1234-5678 |
+| Endereço	   | Texto	             | Endereço completo do local	            | Rua das Palmeiras, 123, Pinheiros, São Paulo |
+| Regras de Uso | Texto	             | DEscrição das regras de uso do local          | Poribido fumar no local, pagamento efetuado um dia antes da data, levar seu próprio equipamento. |
+| Status	       | Texto	           | Situação atual do cadastro da quadra na aplicação web. | Ativa, inativa. |
 
 ### Edição do perfil do usuário
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**               |
