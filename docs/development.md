@@ -36,6 +36,69 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 | Valor Entrada	 | Texto	           | Valor da entrada no local	               | Gratuito                  |
 | Status	       | Texto	           | Situação atual do agendamento	           | Agendado                  |
 
+## Instruções para acesso e verificação da implementação
+
+As páginas desenvolvidas nesta etapa são páginas estáticas, implementadas em HTML e CSS, e estão organizadas dentro da pasta src/ do projeto.
+Cada página representa uma parte funcional da aplicação SocialTennis (por exemplo: escolha do local, agenda, previsão do tempo e perfil do usuário).
+
+### Estrutura de diretórios
+src/
+│
+├── adicionar_quadras.html
+├── agendamento_confirmado.html
+├── alterarsalvo.html
+├── cadastro.html
+├── editar_quadras.html
+├── editarperfil.html
+├── escolha_onde_jogar.html
+├── home.html
+├── index.html
+├── login.html
+├── marcar_na_minha_agenda.html
+├── meuperfil.html
+├── meusagendamentos.html
+├── pagina_inicial_gerente.html
+├── quadras_disponiveis.html
+├── recuperar_senha_passo1.html
+├── recuperar_senha_passo2.html
+├── styles.css
+├── stylesperfil.css
+├── forms.css
+├── home.css
+├── check.png
+├── logo-oficial.png
+└── usuario.png
+
+### Como acessar e verificar a implementação
+
+Baixe ou clone o repositório em seu computador:
+
+git clone https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-2-pe1-projsocialtennis.git
+
+Acesse a pasta src/ e abra qualquer uma das páginas .html em um navegador web (por exemplo, Google Chrome ou Edge).
+
+### Para verificar a estrutura e os dados representados:
+
+Clique com o botão direito na página e selecione “Ver código-fonte da página”.
+
+Localize as seções principais de cada página (<header>, <main>, <footer>).
+
+Observe os elementos HTML que representam os dados descritos na seção “Estruturas de dados” deste documento.
+
+Caso deseje inspecionar o layout e a organização visual:
+
+Utilize as ferramentas de desenvolvedor (botão direito do mouse ou pressione F12 → guia Elements ou Inspecionar).
+
+É possível visualizar as classes CSS aplicadas a cada componente e confirmar o posicionamento, imagens e textos exibidos.
+
+Observação: nesta etapa, as páginas ainda não possuem funcionalidade dinâmica (JavaScript ou banco de dados).
+Os dados apresentados nas páginas são exemplos estáticos que seguem o modelo definido nas estruturas de dados.
+
+
+
+
+
+|--------------------------------------------------------------------|
 
 Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
 
