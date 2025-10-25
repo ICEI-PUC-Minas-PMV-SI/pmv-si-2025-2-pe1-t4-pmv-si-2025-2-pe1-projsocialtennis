@@ -21,18 +21,20 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-011| A aplicação deve mostrar as quadras particulares e direcionar o usuário para o contato com o responsável do clube.  | não aplicado | 
 |RF-012| A aplicação deve ter o ícone para acessar a funcionalidade LIBRAS no canto da página.| nâo aplicado |
 
-### Estruturas de dados
+## Estruturas de dados
 
+### Descrição das estruturas:
 
-## Descrição das estruturas:
-
-## Notícia
-|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
-|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (Inteiro)  | Identificador único da notícia            | 1                                              |
-| Título         | Texto             | Título da notícia                         | Sistemas de Informação PUC Minas é o melhor                                   |
-| Conteúdo       | Texto             | Conteúdo da notícia                       | Sistemas de Informação da PUC Minas é eleito o melhor curso do Brasil                            |
-| Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor da notícia | 1                                              |
+### Agendamento
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**               |
+|:--------------:|-------------------|-------------------------------------------|---------------------------|
+| Título         | Texto             | Nome do local onde o jogo será realizado  | Parque Villa Lobos        |
+| Data           | Texto             | Data do agendamento                       | 25/10/2025                |
+| Horario        | Numero (Inteiro)  | Horário do jogo	                         | 14:00                     |
+| Endereço	     | Texto             | Endereço completo do local	               | Rua das Palmeiras, 123    |
+| Cidade         | Texto             | Cidade do local do jogo	                 | São Paulo                 |
+| Valor Entrada	 | Texto	           | Valor da entrada no local	               | Gratuito                  |
+| Status	       | Texto	           | Situação atual do agendamento	           | Agendado                  |
 
 
 Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
