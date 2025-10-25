@@ -54,6 +54,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 | Horario        | Numero (Inteiro)  | Horário do jogo	                         | 14:00                     |
 | Endereço	     | Texto             | Endereço completo do local	               | Rua das Palmeiras, 123    |
 | Cidade         | Texto             | Cidade do local do jogo	                 | São Paulo                 |
+| Contato      |  Número (Inteiro)   | Telefone para contato ao local da quadra	 | +55 (00)1234-5678 |
 | Valor Entrada	 | Texto	           | Valor da entrada no local	               | Gratuito                  |
 | Status	       | Texto	           | Situação atual do agendamento	           | Agendado                  |
 
