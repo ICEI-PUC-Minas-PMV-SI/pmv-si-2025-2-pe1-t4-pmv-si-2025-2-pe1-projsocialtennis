@@ -36,6 +36,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 | Valor Entrada	 | Texto	           | Valor da entrada no local	               | Gratuito                  |
 | Status	       | Texto	           | Situação atual do agendamento	           | Agendado                  |
 
+### Edição do perfil do usuário
+|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**               |
+|:--------------:|-------------------|-------------------------------------------|---------------------------|
+| Nome           | Texto	           | Nome completo do usuário                  | Luana Cristina            |
+| Email          | Texto	           | Endereço de e-mail cadastrado	           | luana@gmail.com           |
+| Endereço	     | Texto             | Endereço completo do usuário	             | Rua das Flores, 123, Centro, Belo Horizonte, Minas Gerais |
+| Senha          | Texto             | Senha de acesso do usuário (armazenada de forma segura no sistema) | ******** |
+| Foto Perfil	   | Imagem	           | Foto de perfil do usuário exibida na página | usuario.png |
+
 ## Instruções para acesso e verificação da implementação
 
 As páginas desenvolvidas nesta etapa são páginas estáticas, implementadas em HTML e CSS, e estão organizadas dentro da pasta src/ do projeto.
