@@ -43,37 +43,36 @@ Cada página representa uma parte funcional da aplicação SocialTennis (por exe
 
 ### Estrutura de diretórios
 src/
-│
-├── adicionar_quadras.html
-├── agendamento_confirmado.html
-├── alterarsalvo.html
-├── cadastro.html
-├── editar_quadras.html
-├── editarperfil.html
-├── escolha_onde_jogar.html
-├── home.html
-├── index.html
-├── login.html
-├── marcar_na_minha_agenda.html
-├── meuperfil.html
-├── meusagendamentos.html
-├── pagina_inicial_gerente.html
-├── quadras_disponiveis.html
-├── recuperar_senha_passo1.html
-├── recuperar_senha_passo2.html
-├── styles.css
-├── stylesperfil.css
-├── forms.css
-├── home.css
-├── check.png
-├── logo-oficial.png
-└── usuario.png
+- adicionar_quadras.html
+- agendamento_confirmado.html
+- alterarsalvo.html
+- cadastro.html
+- editar_quadras.html
+- editarperfil.html
+- escolha_onde_jogar.html
+- home.html
+- index.html
+- login.html
+- marcar_na_minha_agenda.html
+- meuperfil.html
+- meusagendamentos.html
+- pagina_inicial_gerente.html
+- quadras_disponiveis.html
+- recuperar_senha_passo1.html
+- recuperar_senha_passo2.html
+- styles.css
+- stylesperfil.css
+- forms.css
+- home.css
+- check.png
+- logo-oficial.png
+- usuario.png
 
 ### Como acessar e verificar a implementação
 
 Baixe ou clone o repositório em seu computador:
 
-git clone https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-2-pe1-projsocialtennis.git
+git clone https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-2-pe1-projsocialtennis.git](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-2-pe1-t4-pmv-si-2025-2-pe1-projsocialtennis
 
 Acesse a pasta src/ e abra qualquer uma das páginas .html em um navegador web (por exemplo, Google Chrome ou Edge).
 
@@ -81,7 +80,7 @@ Acesse a pasta src/ e abra qualquer uma das páginas .html em um navegador web (
 
 Clique com o botão direito na página e selecione “Ver código-fonte da página”.
 
-Localize as seções principais de cada página (<header>, <main>, <footer>).
+Localize as seções principais de cada página (header, main, footer).
 
 Observe os elementos HTML que representam os dados descritos na seção “Estruturas de dados” deste documento.
 
@@ -98,7 +97,6 @@ Os dados apresentados nas páginas são exemplos estáticos que seguem o modelo 
 
 
 
-|--------------------------------------------------------------------|
 
 Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
 
