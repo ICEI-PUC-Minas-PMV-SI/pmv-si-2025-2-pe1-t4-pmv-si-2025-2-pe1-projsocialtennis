@@ -1,10 +1,15 @@
 # Social Tennis
 
+![Fluxo Geral](img/userflow.visaogeral.png).
+
 ## Fluxo: Cadastro e Login
 
 Fluxo de cadastro e login do usuário, permitindo criar conta com nome, endereço, e-mail e senha, ou acessar o sistema informando e-mail e senha cadastrados. Inclui recuperação de senha por e-mail, com redefinição mediante confirmação da nova senha. Após autenticação ou cadastro bem-sucedido, o usuário é direcionado à tela de escolha do local para jogar.
 
-![Fluxo Cadastro e Login](img/userflow_cadastrese_login.png)
+![Fluxo Cadastro e Login](img/userflo.cadastro.login.png).
+![Fluxo Recuperar senha](img/userflow.recuperarsenha.png).
+![Fluxo Meu perfil](img/userflow.meuperfil.png).
+
 
 ## Fluxo: Escolher Onde Jogar
 
