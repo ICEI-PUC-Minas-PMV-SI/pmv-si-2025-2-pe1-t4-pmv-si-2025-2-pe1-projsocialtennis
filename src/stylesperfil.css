@@ -154,6 +154,6 @@ main h1 {
 .status {
   font-weight: bold;
   font-size: 20px;
-  color: #153a21;
+  color: red;
   margin-bottom: 10px;
 }
