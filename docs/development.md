@@ -1,4 +1,5 @@
 <div align="justify">
+
 # Programação de Funcionalidades
 
 ## Requisitos Atendidos
@@ -17,7 +18,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-006| A aplicação deve permitir o tenista filtrar os valores de uso das quadras, inclusive as gratuitas.| quadras_disponiveis.html | 
 |RF-007| A aplicação deve permitir a localização de quadras de tênis de acordo com a localização fornecida pelo tenista. | escolha_onde_jogar.html |
 |RF-008| A aplicação deve permitir que os gerentes de quadras cadastrem novas quadras e edite as já existentes, inative ou até mesmo exclua. | adicionar_quadras.html</br> editar_quadras.html |
-|RF-009| A aplicação deve permitir a disponibilização de contato do local responsável pela quadra cadastrada. | adicionar_quadra.html |
+|RF-009| A aplicação deve permitir a disponibilização de contato do local responsável pela quadra cadastrada. | meusagendamentos.hmtl adicionar_quadra.html |
 |RF-010| A aplicação deve fornecer detalhes do agendamento realizado pelo tenista. | agendamento_confirmado.html</br> meusagendamentos.html |
 |RF-011| A aplicação deve disponibilizar o calendário para o tenista. | marcar_na_minha_agenda.html |
 |RF-012| A aplicação deve mostrar as imagens das quadras contendo descrições abaixo delas. | quadras_disponiveis.html | 
@@ -44,7 +45,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 ### Escolha onde jogar
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**               |
 |:--------------:|-------------------|-------------------------------------------|---------------------------|
-| Estado	       | Texto             | Estado do País onde se deseja pesquisar quadras próximas | Minas 1Gerais |
+| Estado	       | Texto             | Estado do País onde se deseja pesquisar quadras próximas | Minas Gerais |
 | Cidade         | Texto             | Cidade onde se deseja pesquisar quadras próximas | Belo Horizonte |
 | Bairro         | Texto             | Bairro onde se deseja pesquisar quadras próximas | Savassi |
 
