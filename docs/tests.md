@@ -1,5 +1,6 @@
 <div align="justify">
-# Testes
+
+## Testes
 
 Neste projeto serão realizados dois tipos de testes:
 
