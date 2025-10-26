@@ -1,6 +1,4 @@
 <div align="justify">
-Especificações do Projeto
-
 ## Personas
 
 - Leonardo tem 16 anos, é morador de Belo Horizonte, e durante o seu tempo livre não pratica nenhum esporte. Porém, encontra dificuldades em adaptação para praticar esportes não popularizados, como o tênis. Ele deseja aprender esse esporte e encontrar um local mais próximo a sua residência para treinar.
