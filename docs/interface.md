@@ -1,3 +1,5 @@
+<div align="justify">
+
 # Social Tennis
 
 ![Fluxo Geral](img/userflow.visaogeral.png).
@@ -28,3 +30,6 @@ Ao clicar em menu, a pessoa consegue acessar, dentre outras funcionalidades, a p
 Na sessão “meu perfil”, a página permite que o usuário consiga visualizar sua foto de perfil e alguns de seus dados cadastrais, como nome e endereço. Clicando em “editar perfil”, o usuário vai para a sessão em que pode editar todos os seus dados cadastrais, são eles: nome, e-mail, endereço e senha. Depois de salvar as alterações, a aplicação informa que os dados foram salvos com sucesso.
 
 ![Fluxo Meu perfil](img/userflow.meuperfil.png).
+
+</div>
+
