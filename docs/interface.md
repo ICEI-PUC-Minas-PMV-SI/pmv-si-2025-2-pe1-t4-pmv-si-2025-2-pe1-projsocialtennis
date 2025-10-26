@@ -1,4 +1,4 @@
-<div align="justify">
+
 
 # Social Tennis
 
@@ -31,5 +31,4 @@ Na sessão “meu perfil”, a página permite que o usuário consiga visualizar
 
 ![Fluxo Meu perfil](img/userflow.meuperfil.png).
 
-</div>
 
