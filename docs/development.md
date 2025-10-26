@@ -19,8 +19,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-008| A aplicação deve permitir a disponibilização de contato para os responsáveis ou locatários de quadras. | adicionar_quadra.html |
 |RF-009| A aplicação deve fornecer detalhes do agendamento realizado pelo jogador. | agendamento_confirmado.html meusagendamentos.html |
 |RF-010| A aplicação deve disponibilizar o calendário para o jogador. | marcar_na_minha_agenda.html |
-|RF-011| A aplicação deve mostrar as quadras particulares e direcionar o usuário para o contato com o responsável do clube.  | não aplicado | 
-|RF-012| A aplicação deve ter o ícone para acessar a funcionalidade LIBRAS no canto da página.| nâo aplicado |
+|RF-011| A aplicação deve mostrar as imagens das quadras contendo descrições abaixo delas.  | quadras_disponiveis.html | 
+|RF-012| A aplicação deve ter descrições nas imagens (atributos alt) para pessoas com deficiência visual navegar. | a ser implementado |
 
 ## Estruturas de dados
 
