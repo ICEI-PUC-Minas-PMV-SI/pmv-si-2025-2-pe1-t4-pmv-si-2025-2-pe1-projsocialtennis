@@ -48,20 +48,21 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito | Prioridade |
+|ID    | Descrição do Requisito | Prioridade | 
 |------|------------------------|------------|
-|RF-001| A aplicação deve permitir o cadastro de tenistas.   | Alta |
-|RF-002| A aplicação deve permitir o login de gerentes de quadras e tenistas.  | Alta | 
-|RF-003| A aplicação deve permitir recuperação de senha de gerentes de quadras e tenistas.  | Alta | 
-|RF-004| A aplicação deve fornecer um acompanhamento da previsão do tempo para tenistas.  | Alta | 
-|RF-005| A aplicação deve permitir o tenista filtrar os valores de uso das quadras, inclusive as gratuitas. | Alta | 
-|RF-006| A aplicação deve permitir a localização de quadras de tênis de acordo com a localização fornecida pelo jogador.  | Média | 
-|RF-007| A aplicação deve permitir que os gerentes de quadras cadastrem novas quadras e edite as já existentes, inative ou até mesmo exclua. | Média | 
-|RF-008| A aplicação deve permitir a disponibilização de contato para os responsáveis ou locatários de quadras. | Média | 
-|RF-009| A aplicação deve fornecer detalhes do agendamento realizado pelo jogador. | Média | 
-|RF-010| A aplicação deve disponibilizar o calendário para o jogador. | Média | 
-|RF-011| A aplicação deve mostrar as quadras particulares e direcionar o usuário para o contato com o responsável do clube.  | Baixa | 
-|RF-012| A aplicação deve ter o ícone para acessar a funcionalidade LIBRAS no canto da página.| Baixa |
+|RF-001| A aplicação deve permitir o cadastro de tenistas. | Alta |
+|RF-002| A aplicação deve permitir o login de gerentes de quadras e tenistas. | Alta | 
+|RF-003| A aplicação deve permitir a inclusão e edição de informações do perfil do usuário. | Alta | 
+|RF-004| A aplicação deve permitir recuperação de senha de gerentes de quadras e tenistas. | Alta | 
+|RF-005| A aplicação deve fornecer um acompanhamento da previsão do tempo para tenistas. | Alta | 
+|RF-006| A aplicação deve permitir o tenista filtrar os valores de uso das quadras, inclusive as gratuitas.| Alta | 
+|RF-007| A aplicação deve permitir a localização de quadras de tênis de acordo com a localização fornecida pelo tenista. | Média |
+|RF-008| A aplicação deve permitir que os gerentes de quadras cadastrem novas quadras e edite as já existentes, inative ou até mesmo exclua. | Média |
+|RF-009| A aplicação deve permitir a disponibilização de contato do local responsável pela quadra cadastrada. | Média |
+|RF-010| A aplicação deve fornecer detalhes do agendamento realizado pelo tenista. | Média |
+|RF-011| A aplicação deve disponibilizar o calendário para o tenista. | Média |
+|RF-012| A aplicação deve mostrar as imagens das quadras contendo descrições abaixo delas. | Baixa | 
+|RF-013| A aplicação deve ter descrições nas imagens (atributos alt) para pessoas com deficiência visual navegar. | Baixa |
 
 <small> **Prioridade: Alta / Média / Baixa
 
