@@ -1,3 +1,5 @@
+<div align="justify">
+
 # Social Tennis
 
 `CURSO: Sistemas de Informação`
@@ -35,3 +37,4 @@ O “Social Tennis” tem como propósito ser uma aplicação web focada em prat
 # Apresentação
 
 <li><a href="presentation/README.md"> Apresentação da solução</a></li>
+</div>
