@@ -11,7 +11,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |------|------------------------|------------|
 |RF-001| A aplicação deve permitir o cadastro de tenistas. | cadastro.html |
 |RF-002| A aplicação deve permitir o login de gerentes de quadras e tenistas. | login.html | 
-|RF-003| A aplicação deve permitir a inclusão e edição de informações do perfil do usuário. | meuperfil.html | 
+|RF-003| A aplicação deve permitir a inclusão e edição de informações do perfil do usuário. | meuperfil.html alterarsalvo.html | 
 |RF-004| A aplicação deve permitir recuperação de senha de gerentes de quadras e tenistas. | recuper_senha_passo1.html recuperar_senha_passo2.html | 
 |RF-005| A aplicação deve fornecer um acompanhamento da previsão do tempo para tenistas. | previsaotempo.html | 
 |RF-006| A aplicação deve permitir o tenista filtrar os valores de uso das quadras, inclusive as gratuitas.| quadras_disponiveis.html | 
