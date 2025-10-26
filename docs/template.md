@@ -13,11 +13,11 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 ## Cores
 
-![Paleta de Cores](img/paleta_de_cores)
+![Paleta de Cores](img/paleta_de_cores.png)
 
 ## Tipografia
 
-![Tipografia](img/nunito_font)
+![Tipografia](img/nunito_font.png)
 
 
 ## Iconografia
