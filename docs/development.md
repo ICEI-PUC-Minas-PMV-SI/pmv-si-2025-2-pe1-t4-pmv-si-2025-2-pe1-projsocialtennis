@@ -14,12 +14,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-002| A aplicação deve permitir o login de gerentes de quadras e tenistas. | login.html | 
 |RF-003| A aplicação deve permitir a inclusão e edição de informações do perfil do usuário. | meuperfil.html</br> alterarsalvo.html | 
 |RF-004| A aplicação deve permitir recuperação de senha de gerentes de quadras e tenistas. | recuper_senha_passo1.html</br> recuperar_senha_passo2.html | 
-|RF-005| A aplicação deve fornecer um acompanhamento da previsão do tempo para tenistas. | previsaotempo.html | 
+|RF-005| A aplicação deve fornecer um acompanhamento da previsão do tempo para tenistas. | previsao_do_tempo.html | 
 |RF-006| A aplicação deve permitir o tenista filtrar os valores de uso das quadras, inclusive as gratuitas.| quadras_disponiveis.html | 
 |RF-007| A aplicação deve permitir a localização de quadras de tênis de acordo com a localização fornecida pelo tenista. | escolha_onde_jogar.html |
 |RF-008| A aplicação deve permitir que os gerentes de quadras cadastrem novas quadras e edite as já existentes, inative ou até mesmo exclua. | adicionar_quadras.html</br> editar_quadras.html |
 |RF-009| A aplicação deve permitir a disponibilização de contato do local responsável pela quadra cadastrada. | meusagendamentos.hmtl adicionar_quadra.html |
-|RF-010| A aplicação deve fornecer detalhes do agendamento realizado pelo tenista. | agendamento_confirmado.html</br> meusagendamentos.html |
+|RF-010| A aplicação deve fornecer detalhes do agendamento realizado pelo tenista. | agendamento_confirmado.html meusagendamentos.html |
 |RF-011| A aplicação deve disponibilizar o calendário para o tenista. | marcar_na_minha_agenda.html |
 |RF-012| A aplicação deve mostrar as imagens das quadras contendo descrições abaixo delas. | quadras_disponiveis.html | 
 |RF-013| A aplicação deve ter descrições nas imagens (atributos alt) para pessoas com deficiência visual navegar. | a ser implementado |
@@ -97,7 +97,7 @@ src/
 - editarperfil.html
 - escolha_onde_jogar.html
 - home.html
-- index.html
+- Previsao_do_tempo.html
 - login.html
 - marcar_na_minha_agenda.html
 - meuperfil.html
