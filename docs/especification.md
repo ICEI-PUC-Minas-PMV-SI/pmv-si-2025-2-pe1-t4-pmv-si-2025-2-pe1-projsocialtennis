@@ -1,3 +1,4 @@
+<div align="justify">
 # Especificações do Projeto
 
 ## Personas
@@ -90,3 +91,4 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 ## Metodologias
 
 As metodologias utilizadas no projeto são SCRUM com controle de tarefas em KANBAN.
+</div>
