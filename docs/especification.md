@@ -1,5 +1,5 @@
 <div align="justify">
-# Especificações do Projeto
+## Especificações do Projeto
 
 ## Personas
 
@@ -75,9 +75,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF- 003 | A aplicação deve ter um design seguindo os padrões de boas práticas no mercado conforme as 10 heurísticas de Nielsen | Média |
 |RNF- 004 | O tempo de resposta da plataforma deve ser inferior a 3 segundos para ações principais | Média |
 
-
-
-
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
@@ -92,6 +89,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 As metodologias utilizadas no projeto são SCRUM com controle de tarefas em KANBAN.
 
-O quadro Kanban disponível: 
+O quadro Kanban disponível no Trello: 
 https://trello.com/invite/b/68f194b1aa6c90818d4b6641/ATTI6f1c8a693625ad891739b774ebe41c9aC617A2D1/projeto-social-tennis-2025-puc-mg
 </div>
