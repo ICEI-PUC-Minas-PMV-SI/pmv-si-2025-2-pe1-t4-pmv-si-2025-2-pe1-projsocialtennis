@@ -1,5 +1,5 @@
 <div align="justify">
-## Especificações do Projeto
+Especificações do Projeto
 
 ## Personas
 
