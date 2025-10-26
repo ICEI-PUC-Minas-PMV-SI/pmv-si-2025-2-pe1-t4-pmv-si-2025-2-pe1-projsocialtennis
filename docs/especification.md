@@ -1,5 +1,5 @@
-# Especificações do Projeto
-
+<div align="justify">
+  
 ## Personas
 
 - Leonardo tem 16 anos, é morador de Belo Horizonte, e durante o seu tempo livre não pratica nenhum esporte. Porém, encontra dificuldades em adaptação para praticar esportes não popularizados, como o tênis. Ele deseja aprender esse esporte e encontrar um local mais próximo a sua residência para treinar.
@@ -48,20 +48,21 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito | Prioridade |
+|ID    | Descrição do Requisito | Prioridade | 
 |------|------------------------|------------|
-|RF-001| A aplicação deve permitir o cadastro de tenistas.   | Alta |
-|RF-002| A aplicação deve permitir o login de gerentes de quadras e tenistas.  | Alta | 
-|RF-003| A aplicação deve permitir recuperação de senha de gerentes de quadras e tenistas.  | Alta | 
-|RF-004| A aplicação deve fornecer um acompanhamento da previsão do tempo para tenistas.  | Alta | 
-|RF-005| A aplicação deve permitir o tenista filtrar os valores de uso das quadras, inclusive as gratuitas. | Alta | 
-|RF-006| A aplicação deve permitir a localização de quadras de tênis de acordo com a localização fornecida pelo jogador.  | Média | 
-|RF-007| A aplicação deve permitir que os gerentes de quadras cadastrem novas quadras e edite as já existentes, inative ou até mesmo exclua. | Média | 
-|RF-008| A aplicação deve permitir a disponibilização de contato para os responsáveis ou locatários de quadras. | Média | 
-|RF-009| A aplicação deve fornecer detalhes do agendamento realizado pelo jogador. | Média | 
-|RF-010| A aplicação deve disponibilizar o calendário para o jogador. | Média | 
-|RF-011| A aplicação deve mostrar as quadras particulares e direcionar o usuário para o contato com o responsável do clube.  | Baixa | 
-|RF-012| A aplicação deve ter o ícone para acessar a funcionalidade LIBRAS no canto da página.| Baixa |
+|RF-001| A aplicação deve permitir o cadastro de tenistas. | Alta |
+|RF-002| A aplicação deve permitir o login de gerentes de quadras e tenistas. | Alta | 
+|RF-003| A aplicação deve permitir a inclusão e edição de informações do perfil do usuário. | Alta | 
+|RF-004| A aplicação deve permitir recuperação de senha de gerentes de quadras e tenistas. | Alta | 
+|RF-005| A aplicação deve fornecer um acompanhamento da previsão do tempo para tenistas. | Alta | 
+|RF-006| A aplicação deve permitir o tenista filtrar os valores de uso das quadras, inclusive as gratuitas.| Alta | 
+|RF-007| A aplicação deve permitir a localização de quadras de tênis de acordo com a localização fornecida pelo tenista. | Média |
+|RF-008| A aplicação deve permitir que os gerentes de quadras cadastrem novas quadras e edite as já existentes, inative ou até mesmo exclua. | Média |
+|RF-009| A aplicação deve permitir a disponibilização de contato do local responsável pela quadra cadastrada. | Média |
+|RF-010| A aplicação deve fornecer detalhes do agendamento realizado pelo tenista. | Média |
+|RF-011| A aplicação deve disponibilizar o calendário para o tenista. | Média |
+|RF-012| A aplicação deve mostrar as imagens das quadras contendo descrições abaixo delas. | Baixa | 
+|RF-013| A aplicação deve ter descrições nas imagens (atributos alt) para pessoas com deficiência visual navegar. | Baixa |
 
 <small> **Prioridade: Alta / Média / Baixa
 
@@ -73,9 +74,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF- 002 | A aplicação deve garantir segurança e proteção de dados dos usuários | Alta | 
 |RNF- 003 | A aplicação deve ter um design seguindo os padrões de boas práticas no mercado conforme as 10 heurísticas de Nielsen | Média |
 |RNF- 004 | O tempo de resposta da plataforma deve ser inferior a 3 segundos para ações principais | Média |
-
-
-
 
 ## Restrições
 
@@ -90,3 +88,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 ## Metodologias
 
 As metodologias utilizadas no projeto são SCRUM com controle de tarefas em KANBAN.
+
+Quadro Kanban: 
+https://trello.com/invite/b/68f194b1aa6c90818d4b6641/ATTI6f1c8a693625ad891739b774ebe41c9aC617A2D1/projeto-social-tennis-2025-puc-mg
+</div>

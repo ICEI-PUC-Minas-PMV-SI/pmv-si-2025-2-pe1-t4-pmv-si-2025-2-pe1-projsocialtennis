@@ -1,3 +1,5 @@
+<div align="justify">
+
 # Referências
 
 BRASIL. Ministério do Desenvolvimento Social. Perfil do Cadastro Único, versão 9. Brasília, 2014. Disponível em: https://aplicacoes.mds.gov.br/sagirmps/ferramentas/docs/Perfil_CadastroUnico_V9.pdf. Acesso em: 27 set. 2025. 
@@ -9,3 +11,4 @@ Nações Unidas Brasil. Saúde e Bem‑Estar: Objetivo de Desenvolvimento Susten
 Organização Pan‑Americana da Saúde – OPAS. Atividade física. Disponível em: https://www.paho.org/pt/topicos/atividade-fisica. Acesso em: 27 set. 2025. 
 
 Organização Pan‑Americana da Saúde – OPAS. Cerca de 1,8 bilhão de adultos correm o risco de adoecer devido à falta de atividade física. 26 jun. 2024. Disponível em: https://www.paho.org/pt/noticias/26-6-2024-cerca-18-bilhao-adultos-correm-risco-adoecer-devido-falta-atividade-fisica. Acesso em: 27 set. 2025. 
+</div>

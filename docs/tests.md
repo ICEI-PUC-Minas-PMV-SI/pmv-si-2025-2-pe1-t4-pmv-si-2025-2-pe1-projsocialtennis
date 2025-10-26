@@ -1,4 +1,6 @@
-# Testes
+<div align="justify">
+
+## Testes
 
 Neste projeto serão realizados dois tipos de testes:
 
@@ -144,5 +146,6 @@ Com relação ao tempo para conclusão de cada tarefa/cenário, notamos discrep�
 
 Contudo, tendo em vista que a diferença foi relevante (por exemplo, 113 segundos — média usuários — contra 25 segundos — especialista — no cenário três), e ainda os comentários feitos por alguns usuários, entendemos haver oportunidades de melhoria na usabilidade da aplicação.
 
+</div>
 
 
