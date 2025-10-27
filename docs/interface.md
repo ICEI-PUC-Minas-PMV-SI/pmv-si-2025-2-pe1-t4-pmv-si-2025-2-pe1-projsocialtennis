@@ -2,7 +2,7 @@
 
 # Social Tennis
 
-![Fluxo Geral](img/userflow_visaogeral.png).
+![userflow](img/userflow-v2.png)
 
 ## Fluxo: Cadastro e Login
 
