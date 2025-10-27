@@ -32,7 +32,7 @@ O “Social Tennis” tem como propósito ser uma aplicação web focada em prat
 
 # Código
 
-<li><a href="src/README.md"> Código Fonte 123</a></li>
+<li><a href="src/README.md"> Código Fonte</a></li>
 
 # Apresentação
 
