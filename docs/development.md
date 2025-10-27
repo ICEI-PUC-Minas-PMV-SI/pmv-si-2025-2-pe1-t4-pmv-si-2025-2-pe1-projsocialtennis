@@ -31,15 +31,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 ### Cadastro usuário
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**               |
 |:--------------:|-------------------|-------------------------------------------|---------------------------|
-| Nome           | Texto	           | Nome completo do usuário                  | Luana Cristina            |
-| Email          | Texto	           | Endereço de e-mail cadastrado	           | luana@gmail.com           |
+| Nome           | Texto	           | Nome completo do usuário                  | Beltrana Beltranax        |
+| Email          | Texto	           | Endereço de e-mail cadastrado	           | beltranax@gmail.com       |
 | Endereço	     | Texto             | Endereço completo do usuário	             | Rua das Flores, 123, Centro, Belo Horizonte, Minas Gerais |
 | Senha          | Texto             | Senha de acesso do usuário (armazenada de forma segura no sistema) | ******** |
 
 ### Login usuário
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**               |
 |:--------------:|-------------------|-------------------------------------------|---------------------------|
-| Email          | Texto	           | Endereço de e-mail cadastrado	           | luana@gmail.com           |
+| Email          | Texto	           | Endereço de e-mail cadastrado	           | beltranax@gmail.com       |
 | Senha          | Texto             | Senha de acesso do usuário (armazenada de forma segura no sistema) | ******** |
 
 ### Escolha onde jogar
@@ -76,8 +76,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 ### Edição do perfil do usuário
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**               |
 |:--------------:|-------------------|-------------------------------------------|---------------------------|
-| Nome           | Texto	           | Nome completo do usuário                  | Luana Cristina            |
-| Email          | Texto	           | Endereço de e-mail cadastrado	           | luana@gmail.com           |
+| Nome           | Texto	           | Nome completo do usuário                  | Beltrana Beltranax        |
+| Email          | Texto	           | Endereço de e-mail cadastrado	           | beltranax@gmail.com       |
 | Endereço	     | Texto             | Endereço completo do usuário	             | Rua das Flores, 123, Centro, Belo Horizonte, Minas Gerais |
 | Senha          | Texto             | Senha de acesso do usuário (armazenada de forma segura no sistema) | ******** |
 | Foto Perfil	   | Imagem	           | Foto de perfil do usuário exibida na página | usuario.png |
