@@ -27,7 +27,7 @@ Portanto, para fundamentar essa escolha, foram utilizados dados estatísticos 
 ## Público-Alvo
 
 O "Social Tennis” tem como público-alvo pessoas de baixa renda que buscam quadras de tênis próximas a sua localidade, que sejam gratuitas ou de preço baixo. O projeto tem o seguinte público-alvo: 
-- Leonardo tem 16 anos, é morador de Belo Horizonte, e durante o seu tempo livre não pratica nenhum esporte. Porém, encontra dificuldades em adaptação para praticar esportes não popularizados, como o tênis. Ele deseja aprender esse esporte e encontrar um local mais próximo a sua residência para treinar.
-- Maria tem 27 anos, é moradora de São Paulo, e por muito tempo frequentava um clube da cidade. No entanto, por questões financeiras não conseguiu se manter sócia do clube e parou de praticar ténis. Ela deseja praticar novamente, mas precisa de um lugar mais acessível no quesito financeiro ou de preferência gratuito.
+- Fulano tem 16 anos, é morador de Belo Horizonte, e durante o seu tempo livre não pratica nenhum esporte. Porém, encontra dificuldades em adaptação para praticar esportes não popularizados, como o tênis. Ele deseja aprender esse esporte e encontrar um local mais próximo a sua residência para treinar.
+- Beltrana tem 27 anos, é moradora de São Paulo, e por muito tempo frequentava um clube da cidade. No entanto, por questões financeiras não conseguiu se manter sócia do clube e parou de praticar ténis. Ela deseja praticar novamente, mas precisa de um lugar mais acessível no quesito financeiro ou de preferência gratuito.
 
 </div>
