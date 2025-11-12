@@ -21,8 +21,8 @@
         </label>
         <nav class="menu-lateral">
             <div class="menu-header">
-            <h2>Menu</h2>
-            <label for="menu-toggle" class="fechar">&times;</label>
+                <h2>Menu</h2>
+                <label for="menu-toggle" class="fechar">&times;</label>
             </div>
             <ul>
                 <li><a href="home.html">Home</a></li>
@@ -39,27 +39,29 @@
     </header>
     <main>
         <section class="main-oficial">
-        <h1>Meu Perfil</h1>
-        <div class="profile container">
-            <div class="fotoperfil"> 
-                <img width="200" height="180"
-                src="usuario.png" alt="Foto Perfil">
+         <h1>Editar Perfil</h1>
+        <form id="formEditar">
+            <div class="foto-editar">
+                <img id="previewFoto" src="usuario.png" width="150" height="150" alt="Foto de perfil">
+                <br>
+                <label for="foto">Alterar foto:</label>
+                <input type="file" id="foto" accept="image/*" onchange="mostrarFoto()"><br><br>
             </div>
-            <div class="informacoes">
-                <h3><strong>Nome Usuário</strong></h3>
-            </div>
-        </div>
-        <h3>Editar Perfil</h3>
-            Editar nome: <input type="text" name="nome" value=""><br>
-            Editar email: <input type="text" name="email" value=""><br>
-            Editar endereço: <input type="text" name="endereco" placeholder="Rua, número, bairro, CEP, Cidade"><br>
-            Redefinir senha: <input type="password" name="senha" value=""><br>
-            <a href="alterarsalvo.html"><button type="submit" value="submit">salvar alterações</button></a>
-        </section>
+            <br>
+            <label>Nome:</label>
+                <input type="text" id="nome" placeholder="Nome completo"><br>
+            <label>Email:</label>
+                <input type="email" id="email" placeholder="Email"><br>
+            <label>Endereço:</label>
+                <input type="text" id="endereco" placeholder="Rua, Número, Baiiro, Cidade, Estado, CEP"><br>
+            <label>Senha:</label>
+                <input type="password" id="senha" placeholder="Senha"><br>
+            <button type="submit">Salvar alterações</button>
         </form>
     </main>
     <footer>
         <p>© Todos os Direitos Reservados - Social Tennis - 2025</p>
     </footer>
+    <script src="perfil.js"></script>
 </body>
 </html>
