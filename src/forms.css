@@ -75,3 +75,11 @@
 .formularioSelect option[disabled]:first-child{
     color: #999;
 }
+
+.erro-campo {
+    color: #d8000c;
+    font-size: 13px;
+    margin-top: 3px;
+    display: block;
+    min-height: 18px;
+}
