@@ -1,5 +1,3 @@
 function cadastrar() {
-    document.getElementById('erro-nome').textContent = '';
-
-    let temErro = false;
+    alert('Botão clicado')
 }
