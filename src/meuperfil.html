@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SocialTennis - Meu Perfil</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" type="text/css" href="stylesperfil.css"> 
+    <link rel="stylesheet" type="text/css" href="stylesperfil.css">
 </head>
 <body>
     <header>
@@ -19,6 +19,7 @@
             <span></span>
             <span></span>
         </label>
+        <div class="overlay"></div>
         <nav class="menu-lateral">
             <div class="menu-header">
             <h2>Menu</h2>
@@ -41,13 +42,9 @@
         <section class="main-oficial">      
               <h1>Meu Perfil</h1>
         <div class="profile container">
-            <div class="fotoperfil"> 
-                <img width="200" height="180"
-                src="usuario.png" alt="Foto Perfil">
-            </div>
             <div class="informacoes">
-                <p><strong>Nome Usuário</strong></p>
-                <p>Endereço</p>
+                <p><strong>Nome:</strong> <span id="nomeUsuario">Carregando...</span></p>
+                <p><strong>Email:</strong> <span id="emailUsuario">Carregando...</span></p>
             </div>
         </div>
         <a href="editarperfil.html">
@@ -61,5 +58,6 @@
     <footer>
         <p>© Todos os Direitos Reservados - Social Tennis - 2025</p>
     </footer>
+    <script src="js/meuperfil.js"></script>
 </body>
 </html>
