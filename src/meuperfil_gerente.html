@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialTennis - Meu Perfil</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="stylesperfil.css">
+</head>
+
+<body>
+    <header>
+        <nav class="cabecalho">
+            <a href="escolha_onde_jogar.html">
+                <img src="logo-oficial.png" alt="Logo-Social-Tennis" class="logo-img" />
+            </a>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <div class="overlay"></div>
+            <nav class="menu-lateral">
+                <div class="menu-header">
+                    <h2>Menu</h2>
+                    <label for="menu-toggle" class="fechar">&times;</label>
+                </div>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="pagina_inicial_gerente.html">Minhas Quadras</a></li>
+                    <li><a href="adicionar_quadras.html">Adicionar Novas Quadras</a></li>
+                    <li><a href="meuperfil_gerente.html">Meu Perfil</a></li>
+                    <li><a href="home.html">Sair</a></li>
+                </ul>
+            </nav>
+        </nav>
+    </header>
+    <main>
+        <section class="main-oficial">
+            <h1>Meu Perfil</h1>
+            <div class="profile container">
+                <div class="informacoes">
+                    <p><strong>Nome:</strong> <span id="nomeUsuario">Carregando...</span></p>
+                    <p><strong>Email:</strong> <span id="emailUsuario">Carregando...</span></p>
+                </div>
+            </div>
+            <a href="editarperfil.html">
+                <button>Editar perfil</button>
+            </a>
+            <a href="pagina_inicial_gerente.html">
+                <button>Minhas Quadras</button>
+            </a>
+        </section>
+    </main>
+    <footer>
+        <p>© Todos os Direitos Reservados - Social Tennis - 2025</p>
+    </footer>
+    <script src="js/meuperfil.js"></script>
+</body>
+
+</html>

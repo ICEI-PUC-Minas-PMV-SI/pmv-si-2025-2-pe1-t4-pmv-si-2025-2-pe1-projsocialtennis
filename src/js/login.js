@@ -39,14 +39,17 @@ function fazerLogin() {
 
     // Se encontrou o usuário
     if (usuarioEncontrado) {
+        // Salvar o email do usuário logado no localStorage
+        localStorage.setItem("usuarioLogado", email);
+        
         alert("Login realizado com sucesso!");
         
         // Redirecionar baseado no perfil
         if (perfilUsuario == "iniciante") {
-            // Se for tenista
+            // Se for tenista, vai para escolha onde jogar
             window.location.href = "escolha_onde_jogar.html";
         } else if (perfilUsuario == "intermediario") {
-            // Se for gerente de quadra
+            // Se for gerente de quadra, vai para página inicial do gerente
             window.location.href = "pagina_inicial_gerente.html";
         }
     } else {
