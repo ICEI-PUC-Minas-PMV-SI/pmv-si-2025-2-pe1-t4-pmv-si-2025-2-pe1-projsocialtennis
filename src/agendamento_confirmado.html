@@ -41,22 +41,33 @@
     </header>
     <main> 
         <section class="main-oficial">
-          <h2>Agendamento Confirmado</h2>
+          <h2>Agendamento Confirmado! ✅</h2>
           <div> 
-          <h3>Nome Local</h3>
+          <h3 id="nomeQuadra">Carregando...</h3>
         </div>
       
           <div class="confirmacao-detalhes">
-            <p><strong>Local:</strong> </p>
-            <p><strong>Valor:</strong> </p>
-            <p><strong>Data:</strong> </p>
-            <p><strong>Horário:</strong> </p>
-            <p><strong>Agendado por:</strong> </p>
+            <p><strong>Local:</strong> <span id="localQuadra"></span></p>
+            <p><strong>Endereço:</strong> <span id="enderecoQuadra"></span></p>
+            <p><strong>Valor:</strong> <span id="valorQuadra"></span></p>
+            <p><strong>Data:</strong> <span id="dataAgendamento"></span></p>
+            <p><strong>Horário:</strong> <span id="horarioAgendamento"></span></p>
+            <p><strong>Agendado por:</strong> <span id="usuarioAgendamento"></span></p>
+          </div>
+
+          <div class="botoes" style="margin-top: 30px;">
+            <a href="meusagendamentos.html">
+              <button class="btn-agendar">Ver Minha Agenda</button>
+            </a>
+            <a href="escolha_onde_jogar.html">
+              <button class="btn-previsao">Fazer Novo Agendamento</button>
+            </a>
           </div>
         </section>
     <footer>
         <p>© Todos os Direitos Reservados - Social Tennis - 2025</p>
       </footer>
     </main>
+    <script src="js/agendamento_confirmado.js"></script>
   </body>
 </html>

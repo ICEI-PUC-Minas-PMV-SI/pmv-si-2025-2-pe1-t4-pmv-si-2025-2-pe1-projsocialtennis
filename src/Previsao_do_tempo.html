@@ -42,24 +42,27 @@
 
     <main>
       <section class="main-oficial">
-        <h2>Clima para o dia:</h2>
+        <h2>Previsão do Tempo</h2>
     
         <div class="inputs">
-          <input type="text" placeholder="Dia">
-          <input type="text" placeholder="Mês">
-          <input type="text" placeholder="Ano">
-            <p class="ordem">Às</p>
-          <input type="text" placeholder="Horário">
+          <input type="text" id="cidade" placeholder="Cidade" value="">
+          <input type="text" id="estado" placeholder="Estado" value="">
         </div>
+
+        <button class="btn-jogar" id="btnBuscarClima" style="margin-bottom: 30px;">Buscar Previsão</button>
     
-        <div class="card-clima">
-          <p class="local">Cidade, Estado</p>
-          <div class="icone-sol">☀️</div>
-          <h3 class="temp">25°C</h3>
-          <p class="descricao">Sol</p>
+        <div class="card-clima" id="cardClima" style="display: none;">
+          <p class="local" id="localClima">Cidade, Estado</p>
+          <div class="icone-sol" id="iconeClima">☀️</div>
+          <h3 class="temp" id="temperatura">25°C</h3>
+          <p class="descricao" id="descricaoClima">Sol</p>
+          <p class="detalhes" id="detalhesClima" style="font-size: 0.9rem; color: #666; margin-top: 10px;"></p>
         </div>
-         <a href="escolha_onde_jogar.html">
-        <button class="btn-jogar">Escolha onde Jogar</button>
+
+        <div id="mensagemErro" style="display: none; color: red; margin: 20px 0;"></div>
+
+        <a href="escolha_onde_jogar.html">
+          <button class="btn-jogar">Escolha onde Jogar</button>
         </a>
       </section>
     
@@ -67,5 +70,6 @@
         <p>© Todos os Direitos Reservados - Social Tennis - 2025</p>
       </footer>
     </main>
+    <script src="js/Previsao_do_tempo.js"></script>
   </body>
 </html>

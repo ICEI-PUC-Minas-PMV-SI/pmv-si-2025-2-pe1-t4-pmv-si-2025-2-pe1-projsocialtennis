@@ -4,7 +4,7 @@
 function irParaPrevisao() {
     // Pegar os valores dos campos
     var estado = document.getElementById("estado").value;
-    var cidade = document.about:blank#blockedgetElementById("cidade").value;
+    var cidade = document.getElementById("cidade").value;
     var bairro = document.getElementById("bairro").value;
 
     // Salvar os dados no localStorage (mesmo que estejam vazios)
@@ -13,7 +13,7 @@ function irParaPrevisao() {
     localStorage.setItem("bairroBusca", bairro);
 
     // Redirecionar para a página de previsão do tempo
-    window.location.href = "Previsao_do_tempo.html";
+    window.location.href = "previsao_do_tempo.html";
 }
 
 // Função para escolher e buscar quadras

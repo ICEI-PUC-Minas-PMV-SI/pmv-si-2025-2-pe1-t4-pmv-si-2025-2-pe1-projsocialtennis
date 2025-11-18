@@ -15,13 +15,16 @@
             </a>            
         <input type="checkbox" id="menu-toggle" class="menu-toggle">
 
-  <!-- Botão hambúrguer -->
+        <!-- Botão hambúrguer -->
         <label for="menu-toggle" class="menu-btn">
             <span></span>
             <span></span>
             <span></span>
         </label>
-  <!-- Menu lateral -->
+
+        <div class="overlay"></div>
+
+        <!-- Menu lateral -->
         <nav class="menu-lateral">
             <div class="menu-header">
             <h2>Menu</h2>
@@ -36,50 +39,17 @@
                 <li><a href="home.html">Sair</a></li>
             </ul>
         </nav>
+        </nav>
     </header>
     <main>
     <h1>Meus agendamentos</h1>
-    <div class="agendamentos">
-        <div class="caixa-agendamento">
-            <div class="fotolocal">
-                <img src="imagem-local.jpg" alt="Foto do local" width="200" height="180">
-            </div>
-            <div class="info-agendamento">
-                <p><strong>Nome Local</strong></p>
-                <ul>
-                    <li>Data: dd/mm/aaaa</li>
-                    <li>Horário: 14:00</li>
-                    <li>Endereço: Rua das Palmeiras, 123</li>
-                    <li>Cidade: São Paulo</li>
-                    <li>Contato: +55 (00) 91234-5678</li>
-                    <li>Valor entrada: Gratuito</li>
-                </ul>
-                <span class="status">Agendado</span>
-                <button>Cancelar agendamento</button>
-            </div>
-        </div>
-         <div class="caixa-agendamento">
-            <div class="fotolocal">
-                <img src="imagem-local.jpg" alt="Foto do local" width="200" height="180">
-            </div>
-            <div class="info-agendamento">
-                <p><strong>Nome Local</strong></p>
-                <ul>
-                    <li>Data: dd/mm/aaaa</li>
-                    <li>Horário: 14:00</li>
-                    <li>Endereço: Rua das Palmeiras, 123</li>
-                    <li>Cidade: São Paulo</li>
-                    <li>Contato: +55 (00) 91234-5678</li>
-                    <li>Valor entrada: Gratuito</li>
-                </ul>
-                <span class="status">Agendado</span>
-                <button>Cancelar agendamento</button>
-            </div>
-        </div>
+    <div class="agendamentos" id="listaAgendamentos">
+        <!-- Os agendamentos serão inseridos aqui pelo JavaScript -->
     </div>
-</main>
+    </main>
      <footer>
         <p>© Todos os Direitos Reservados - Social Tennis - 2025</p>
     </footer>
+    <script src="js/meusagendamentos.js"></script>
 </body>
 </html>
