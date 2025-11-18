@@ -1,7 +1,7 @@
 // Arquivo JavaScript para previsão do tempo
 
 // Chave da API OpenWeatherMap (gratuita para fins educacionais)
-var API_KEY = "c8d0e279ba3c8797e3936f95c4c591bf";
+var API_KEY = "754ccc95f9cb9909992d59b20e42efd7";
 
 // Função para buscar os dados salvos da busca de quadras
 function carregarDadosBusca() {
