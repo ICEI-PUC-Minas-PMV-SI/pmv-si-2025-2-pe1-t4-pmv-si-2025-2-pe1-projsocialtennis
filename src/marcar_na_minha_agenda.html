@@ -46,20 +46,44 @@
       <section class="main-oficial">
       <h1>Marcar na minha agenda</h1>
 
-      <div class="calendario">
-        <input type="date" />
+      <div id="infoQuadra" style="margin-bottom: 20px;">
+        <!-- Informações da quadra serão inseridas aqui -->
       </div>
-        <h3 class="horarios"><strong>Horário:</strong> </h3>
-        <div class="botoes">
-          <a href="agendamento_confirmado.html">
-          <button class="btn-agendar">Agendar</button>
-          </a>
-        </div>
-    </main>
+
+      <div class="calendario">
+        <label for="dataAgendamento"><strong>Data:</strong></label>
+        <input type="date" id="dataAgendamento" />
+      </div>
+
+      <div class="horario-select">
+        <label for="horarioAgendamento"><strong>Horário:</strong></label>
+        <select id="horarioAgendamento">
+          <option value="">Selecione o horário</option>
+          <option value="08:00">08:00</option>
+          <option value="09:00">09:00</option>
+          <option value="10:00">10:00</option>
+          <option value="11:00">11:00</option>
+          <option value="12:00">12:00</option>
+          <option value="13:00">13:00</option>
+          <option value="14:00">14:00</option>
+          <option value="15:00">15:00</option>
+          <option value="16:00">16:00</option>
+          <option value="17:00">17:00</option>
+          <option value="18:00">18:00</option>
+          <option value="19:00">19:00</option>
+          <option value="20:00">20:00</option>
+        </select>
+      </div>
+
+      <div class="botoes">
+        <button class="btn-agendar" id="btnAgendar">Agendar</button>
+      </div>
+      </section>
 
     <footer>
         <p>© Todos os Direitos Reservados - Social Tennis - 2025</p>
       </footer>
     </main>
+    <script src="js/marcar_na_minha_agenda.js"></script>
   </body>
 </html>

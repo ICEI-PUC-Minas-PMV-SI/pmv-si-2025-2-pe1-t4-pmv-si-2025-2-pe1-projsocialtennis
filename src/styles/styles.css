@@ -741,3 +741,56 @@ footer {
   background: #cfcfcf;
   transform: scale(1.03);
 }
+
+/* Estilo para o select de horário */
+.horario-select {
+  margin: 25px 0;
+  text-align: center;
+}
+
+.horario-select label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.horario-select select {
+  background: #e5e5e5;
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #333;
+  width: 250px;
+  cursor: pointer;
+}
+
+.horario-select select:focus {
+  outline: 2px solid #007dc6;
+  background: #fff;
+}
+
+#infoQuadra {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+#infoQuadra h3 {
+  color: #1e1e2f;
+  margin-bottom: 8px;
+}
+
+#infoQuadra p {
+  color: #555;
+  margin: 4px 0;
+}
+
+.calendario label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  color: #333;
+}
