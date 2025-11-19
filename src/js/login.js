@@ -40,9 +40,7 @@ function fazerLogin() {
     // Se encontrou o usuário
     if (usuarioEncontrado) {
         // Salvar o email do usuário logado no localStorage
-        localStorage.setItem("usuarioLogado", email);
-        
-        alert("Login realizado com sucesso!");
+        localStorage.setItem("usuarioLogado", email); 
         
         // Redirecionar baseado no perfil
         if (perfilUsuario == "iniciante") {
