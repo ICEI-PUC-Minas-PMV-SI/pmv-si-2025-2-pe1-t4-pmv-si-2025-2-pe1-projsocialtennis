@@ -27,6 +27,72 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
 
 
+**Caso de Teste** | **CT01 - Criar conta (tenista)**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço web da aplicação <br> 2) Clique em "Cadastre-se" <br> 2) Preencha todos os campos do formulário e selecione tenista<br> 3) Clique no botão "Criar conta".
+**Requisitos associados** | RF-001
+**Resultado esperado** | Redirecionar para a página de login
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT02 - Criar conta (gerente de quadra)**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço web da aplicação <br> 2) Clique em "Cadastre-se" <br> 2) Preencha todos os campos do formulário e selecione gerente de quadra<br> 3) Clique no botão "Criar conta".
+**Requisitos associados** | RF-001
+**Resultado esperado** | Redirecionar para a página de login
+**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT03 - Logar conta (tenista)**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço web da aplicação <br> 2) Clique em "Entrar" <br> 2) Preencha todos os campos do formulário<br> 3) Clique no botão "Entrar".
+**Requisitos associados** | RF-002
+**Resultado esperado** | Redirecionar para a página inicial do tenista logado
+**Dados de entrada** | Inserção de dados válidos no formulário de login
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT04 - Logar conta (gerente de quadra)**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço web da aplicação <br> 2) Clique em "Entrar" <br> 2) Preencha todos os campos do formulário<br> 3) Clique no botão "Entrar".
+**Requisitos associados** | RF-002
+**Resultado esperado** | Redirecionar para a página inicial do gerente de quadra logado
+**Dados de entrada** | Inserção de dados válidos no formulário de login
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT05 - Recuperar senha - parte 1 (tenista/gerente de quadra)**
+ :--------------: | ------------
+**Procedimento**  | 1) Acesse o endereço web do login da aplicação <br> 2) Clique em "Esqueci minha senha" <br> 2) Preencha o campo de e-mail do formulário<br> 3) Clique no botão "Continuar".
+**Requisitos associados** | RF-004
+**Resultado esperado** | Redirecionar para a segunda página de recuperação de senha 
+**Dados de entrada** | Inserção de dados válidos no formulário de login
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT06 - Recuperar senha - parte 2 (tenista/gerente de quadra)**
+ :--------------: | ------------
+**Procedimento**  | 1) Preencha todos os campos do formulário<br> 2) Clique em "Confirmar".
+**Requisitos associados** | RF-004
+**Resultado esperado** | Senha nova é criada e é redirecionado para a página de login
+**Dados de entrada** | Inserção de dados válidos no formulário de login
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT07 - Página inicial (tenista)**
+ :--------------: | ------------
+**Procedimento**  | 1) Preencha todos os campos do formulário<br> 2) Clique em "Escolher".
+**Requisitos associados** | RF-007
+**Resultado esperado** | Prosseguir para a página das quadras disponíveis
+**Dados de entrada** | Inserção de dados válidos no formulário de login
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT07 - Página inicial (gerente)**
+ :--------------: | ------------
+**Procedimento**  | 1) Suas quadras ativas e desativadas são exibidas.
+**Requisitos associados** | RF-00
+**Resultado esperado** | Exibir as quadras ativas e desativadas
+**Dados de entrada** | Inserção de dados válidos no formulário de login
+**Resultado obtido** | Sucesso
+
+
+
 **Caso de Teste** | **CT01 - Criar conta parte 1**
  :--------------: | ------------
 **Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em criar conta <br> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "Continuar".
