@@ -12,7 +12,14 @@ authors:
     family-names: Luana Cristina Eleutério
     email: lceleuterio@sga.pucminas.br
     affiliation: PUC Minas
-
+  - given-names: Aluno 2
+    family-names: Rodrigo Luiz de Lima Ferreira
+    email: rllferreira@sga.pucminas.br
+    affiliation: PUC Minas
+  - given-names: Aluno 3
+    family-names: 
+    email: 
+    affiliation: PUC Minas
   - given-names: Marco 
     name-particle: 'B'
     family-names: Rodrigo Costa
