@@ -2,32 +2,33 @@
 # Visit https://bit.ly/cffinit to generate yours today!
 
 cff-version: 1.2.0
-title: Web Application Template
+title: "Social Tennis", uma aplicação web
 message: >-
   Repositório padrão para o Eixo 1 - Projeto 1: Aplicações
   Web da PUC Minas.
 type: software
 authors:
   - given-names: Aluno 1
-    family-names: Nome Completo
-    email: aluno@pucminas.br
+    family-names: Luana Cristina Eleutério
+    email: lceleuterio@sga.pucminas.br
     affiliation: PUC Minas
-  - given-names: Hugo
-    name-particle: 'B '
-    family-names: de Paula
+
+  - given-names: Marco 
+    name-particle: 'B'
+    family-names: Rodrigo Costa
     name-suffix: Prof.
-    email: hugo@pucminas.br
+    email: marco.rodrigo@sga.pucminas.br
     affiliation: PUC Minas
     orcid: 'https://orcid.org/0000-0002-6193-3205'
 repository-code: >-
-  https://github.com/ICEI-PUC-Minas-PMV-SI/WebApplicationProject-Template
+https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-2-pe1-t4-pmv-si-2025-2-pe1-projsocialtennis
 abstract: >-
-  Descrever resumidamente, em um ou dois parágrafos, o
-  projeto que foi desenvolvido.
+  O “Social Tennis” tem como propósito ser uma aplicação web focada em praticantes de tênis de baixa renda no Brasil, que buscam uma quadra, com preço acessível ou gratuita, mais próxima de sua região em que possam praticar o esporte e se socializar. Por meio de uma interface baseada nas 10 heurísticas de Jakob Nielsen, utilizadas como boas práticas no mercado, os usuários poderão visualizar quadras próximas, obter informações sobre disponibilidade, filtrar valores e gratuidades e até mesmo verificar a previsão do tempo.
 keywords:
   - Desenvolvimento Web
   - HTML
   - CSS
   - JavaScript
-  - Template
-date-released: '2024-06-23'
+  - Tênis
+  - Quadras de tênis
+date-released: '2025-11-23'
