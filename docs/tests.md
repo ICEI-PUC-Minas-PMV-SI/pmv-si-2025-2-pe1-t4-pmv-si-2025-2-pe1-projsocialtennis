@@ -83,13 +83,21 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção de dados válidos no formulário de login
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT07 - Página inicial (gerente)**
+**Caso de Teste** | **CT08 - Página inicial (gerente)**
  :--------------: | ------------
 **Procedimento**  | 1) Suas quadras ativas e desativadas são exibidas.
 **Requisitos associados** | RF-00
 **Resultado esperado** | Exibir as quadras ativas e desativadas
 **Dados de entrada** | Inserção de dados válidos no formulário de login
 **Resultado obtido** | Sucesso
+
+
+
+
+
+
+
+
 
 
 
