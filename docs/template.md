@@ -22,6 +22,8 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 ## Iconografia
 
+![Tipografia](src/styles/logo-oficial.png)
+
 Defina os ícones que serão utilizados e suas respectivas funções.
 
 Apresente os estilos CSS criados para cada um dos elementos apresentados.
