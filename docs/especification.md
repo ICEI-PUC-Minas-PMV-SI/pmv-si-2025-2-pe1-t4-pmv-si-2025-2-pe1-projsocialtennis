@@ -55,18 +55,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-003| A aplicação deve permitir a inclusão e edição de informações do perfil do usuário. | Alta | 
 |RF-004| A aplicação deve permitir recuperação de senha de gerentes de quadras e tenistas. | Alta | 
 |RF-005| A aplicação deve fornecer um acompanhamento da previsão do tempo para tenistas. | Alta | 
-|RF-006| A aplicação deve permitir o tenista filtrar os valores de uso das quadras, inclusive as gratuitas.| Alta | 
-|RF-007| A aplicação deve aparecer as quadras ativas e inativas do gerente de quadra | Alta |
-|RF-008| A aplicação deve permitir que o gerente de quadra consiga adicionar e editar quadras | Alta |
-|RF-009| A aplicação deve pemitir que o gerente de quadra ative e desative as quadras | Alta |
-|RF-010| A aplicação deve permitir que o gerente de quadra edite informações da quadra | Alta |
-|RF-011| A aplicação deve permitir a localização de quadras de tênis de acordo com a localização fornecida pelo tenista. | Média |
-|RF-012| A aplicação deve permitir que os gerentes de quadras cadastrem novas quadras e edite as já existentes, inative ou até mesmo exclua. | Média |
-|RF-013| A aplicação deve permitir a disponibilização de contato do local responsável pela quadra cadastrada. | Média |
-|RF-014| A aplicação deve fornecer detalhes do agendamento realizado pelo tenista. | Média |
-|RF-015| A aplicação deve disponibilizar o calendário para o tenista. | Média |
-|RF-016| A aplicação deve mostrar as imagens das quadras contendo descrições abaixo delas. | Baixa | 
-|RF-017| A aplicação deve ter descrições nas imagens (atributos alt) para pessoas com deficiência visual navegar. | Baixa |
+|RF-006| A aplicação deve permitir o tenista filtrar a quadra de acordo com a localização desejada. | Alta | 
+|RF-007| A aplicação deve aparecer as quadras ativas e inativas do gerente de quadra. | Alta |
+|RF-008| A aplicação deve permitir que o gerente de quadra consiga adicionar e editar quadras. | Alta |
+|RF-009| A aplicação deve pemitir que o gerente de quadra ative e desative as quadras. | Alta |
+|RF-010| A aplicação deve permitir que o gerente de quadra edite informações da quadra. | Alta |
+|RF-011| A aplicação deve mostrar as quadras disponiveis para o tenista de acordo com a disponibilidade para região. | Alta |
+|RF-012| A aplicação deve permitir a disponibilização de contato do local responsável pela quadra cadastrada. | Média |
+|RF-013| A aplicação deve fornecer detalhes do agendamento realizado pelo tenista. | Média |
+|RF-014| A aplicação deve disponibilizar o calendário para o tenista. | Média |
+|RF-015| A aplicação deve permitir o cancelamento do agendamento. | Baixa | 
 
 
 <small> **Prioridade: Alta / Média / Baixa
