@@ -106,7 +106,7 @@ A documentação dos testes é dividida nas seguintes seções:
 **Caso de Teste** | **CT11 - Marcar na minha Agenda (Tenista)**
  :--------------: | ------------
 **Procedimento**  | 1) Selecionar a quadra desejada em quadras disponíveis <br> 2) Selecionar a data de preferência <br> 3) Selecionar o horário de preferência <br> 3) Clique em "Agendar"
-**Requisitos associados** | RF-013
+**Requisitos associados** | RF-014
 **Resultado esperado** | Agendar uma data para utilização da quadra.
 **Dados de entrada** | Data e Horário
 **Resultado obtido** | Sucesso 
@@ -130,7 +130,7 @@ A documentação dos testes é dividida nas seguintes seções:
 **Caso de Teste** | **CT14 - Excluir Quadra (Gerente)**
  :--------------: | ------------
 **Procedimento**  | 1) Pagina inicial <br> 2) Clique na quadra desejada <br> 3) Excluir
-**Requisitos associados** | RF-008
+**Requisitos associados** | RF-010
 **Resultado esperado** | Excluir quadra selecionada
 **Dados de entrada** | N/A
 **Resultado obtido** | Sucesso 
@@ -199,6 +199,14 @@ A documentação dos testes é dividida nas seguintes seções:
 **Dados de entrada** | N/A
 **Resultado obtido** | Sucesso 
 
+**Caso de Teste** | **CT23 - Mudar status quadras (Gerente)**
+ :--------------: | ------------
+**Procedimento**  |1) Pagina inicial - Minhas quadras <br> 2) Clique na quadra desejada <br> 3) Editar as informações desejadas <br> 4) Status <br> 5) Salvar <br>
+**Requisitos associados** | RF-009
+**Resultado esperado** | Mudar o status da quadra
+**Dados de entrada** | Status "ATIVA" ou "INATIVA"
+**Resultado obtido** | Sucesso 
+
 
 
 ## Registro dos Testes de Software
@@ -208,11 +216,115 @@ A documentação dos testes é dividida nas seguintes seções:
 |Requisito Associado | RF-001 - A aplicação deve permitir o cadastro de tenistas e gerentes de quadras.|
 |Link do vídeo do teste realizado: | https://l1nq.com/pJJIY |
 
-|*Caso de Teste*                                 |*CT02 - Criar conta parte 2*                                        |
+|*Caso de Teste*                                 |*CT02 - Criar conta (Gerente de quadra)*                              |
 |---|---|
-|Requisito Associado | RF-001 - A aplicação deve permitir que os usuários criem uma conta e gerenciem seu cadastro|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Requisito Associado | RF-001 - A aplicação deve permitir o cadastro de tenistas e gerentes de quadras.|
+|Link do vídeo do teste realizado: | https://l1nq.com/4wNdw | 
 
+|*Caso de Teste*                                 |*CT03 - Logar conta (Tenista)*                                        |
+|---|---|
+|Requisito Associado | RF-002 - A aplicação deve permitir o login de gerentes de quadras e tenistas.|
+|Link do vídeo do teste realizado: | https://l1nq.com/aiMPB | 
+
+|*Caso de Teste*                                 |*CT04 - Logar conta (Gerente de quadra)*                              |
+|---|---
+|Requisito Associado | RF-002 - A aplicação deve permitir o login de gerentes de quadras e tenistas.|
+|Link do vídeo do teste realizado: | https://sl1nk.com/IYDDt | 
+
+|*Caso de Teste*                                 |*CT05 - Recuperar senha - parte 1 (Tenista/Gerente de quadra)*                       |
+|---|---|
+|Requisito Associado | RF-004 - A aplicação deve permitir recuperação de senha de gerentes de quadras e tenistas.|
+|Link do vídeo do teste realizado: | https://l1nq.com/lrlfX | 
+
+|*Caso de Teste*                                 |*CT06 - Recuperar senha - parte 2 (Tenista/Gerente de quadra)*                       |
+|---|---|
+|Requisito Associado | RF-004 - A aplicação deve permitir recuperação de senha de gerentes de quadras e tenistas.|
+|Link do vídeo do teste realizado: | https://sl1nk.com/qq62p | 
+
+|*Caso de Teste*                                 |*CT07 - Página inicial: Escolha onde Jogar (Tenista)*                       |
+|---|---|
+|Requisito Associado | RF-006 - A aplicação deve permitir o tenista filtrar a quadra de acordo com a localização desejada.|
+|Link do vídeo do teste realizado: | https://sl1nk.com/ZLekR | 
+
+|*Caso de Teste*                                 |*CT08 - Quadras Disponiveis (Tenista)*                       |
+|---|---|
+|Requisito Associado | RF-011 - A aplicação deve mostrar as quadras disponiveis para o tenista de acordo com a disponibilidade para região.|
+|Link do vídeo do teste realizado: | https://sl1nk.com/ZLekR | 
+
+|*Caso de Teste*                                 |*CT09 - Página Inicial: Minhas Quadras (Gerente)*                       |
+|---|---|
+|Requisito Associado | RF-007 - A aplicação deve aparecer as quadras ativas e inativas do gerente de quadra.|
+|Link do vídeo do teste realizado: | https://l1nq.com/Vn575 | 
+
+|*Caso de Teste*                                 |*CT10 - Adicionar Quadra (Gerente)*                       |
+|---|---|
+|Requisito Associado | RF-008 - A aplicação deve permitir que o gerente de quadra consiga adicionar e editar quadras.|
+|Link do vídeo do teste realizado: | https://sl1nk.com/H5hS6 | 
+
+|*Caso de Teste*                                 |*CT11 - Marcar na minha Agenda (Tenista)*                       |
+|---|---|
+|Requisito Associado | RF-014 - A aplicação deve disponibilizar o calendário para o tenista.|
+|Link do vídeo do teste realizado: | https://sl1nk.com/jTLvV | 
+
+|*Caso de Teste*                                 |*CT12 - Editar Quadra (Gerente)*                       |
+|---|---|
+|Requisito Associado | RF-010 - A aplicação deve permitir que o gerente de quadra edite informações da quadra..|
+|Link do vídeo do teste realizado: | https://sl1nk.com/2kZQn | 
+
+|*Caso de Teste*                                 |*CT13 - Agenda (Tenista)*                       |
+|---|---|
+|Requisito Associado | RF-013 - A aplicação deve fornecer detalhes do agendamento realizado pelo tenista.|
+|Link do vídeo do teste realizado: | https://sl1nk.com/Au5x2 | 
+
+|*Caso de Teste*                                 |*CT14 - Excluir Quadra (Gerente)*                       |
+|---|---|
+|Requisito Associado | RF-010 - A aplicação deve permitir que o gerente de quadra edite informações da quadra.|
+|Link do vídeo do teste realizado: | https://l1nq.com/KYCjn | 
+
+|*Caso de Teste*                                 |*CT15 - Cancelar Agendamento (Tenista)*                       |
+|---|---|
+|Requisito Associado | RF-015 - A aplicação deve permitir o cancelamento do agendamento.|
+|Link do vídeo do teste realizado: | https://l1nq.com/KUeFh | 
+
+|*Caso de Teste*                                 |*CT16 - Meu Perfil (Tenista)*                       |
+|---|---|
+|Requisito Associado | RF-003 - A aplicação deve permitir a inclusão e edição de informações do perfil do usuário.|
+|Link do vídeo do teste realizado: | https://l1nq.com/e562v | 
+
+|*Caso de Teste*                                 |*CT17 - Meu Perfil (Gerente)*                       |
+|---|---|
+|Requisito Associado | RF-003 - A aplicação deve permitir a inclusão e edição de informações do perfil do usuário.|
+|Link do vídeo do teste realizado: | https://l1nq.com/zyNwT | 
+
+|*Caso de Teste*                                 |*CT18 - Editar Perfil (Tenista)*                       |
+|---|---|
+|Requisito Associado | RF-003 - A aplicação deve permitir a inclusão e edição de informações do perfil do usuário.|
+|Link do vídeo do teste realizado: | https://l1nq.com/OU4Uq | 
+
+|*Caso de Teste*                                 |*CT19 - Editar Perfil (Gerente)*                       |
+|---|---|
+|Requisito Associado | RF-003 - A aplicação deve permitir a inclusão e edição de informações do perfil do usuário.|
+|Link do vídeo do teste realizado: | https://l1nq.com/rzR3e | 
+
+|*Caso de Teste*                                 |*CT20 - Previsão do tempo (Tenista)*                       |
+|---|---|
+|Requisito Associado | RF-005 - A aplicação deve fornecer o acompanhamento da previsão do tempo para tenistas.|
+|Link do vídeo do teste realizado: | https://l1nq.com/4zRjw | 
+
+|*Caso de Teste*                                 |*CT21 - Sair (Gerente)*                       |
+|---|---|
+|Requisito Associado | RF-000|
+|Link do vídeo do teste realizado: | https://l1nq.com/O92rV | 
+
+|*Caso de Teste*                                 |*CT22 - Sair (Tenista)*                       |
+|---|---|
+|Requisito Associado | RF-000|
+|Link do vídeo do teste realizado: | https://l1nq.com/P3O7P | 
+
+|*Caso de Teste*                                 |*CT23 - Mudar status quadras (Gerente)*                       |
+|---|---|
+|Requisito Associado | RF-009 - A aplicação deve pemitir que o gerente de quadra ative e desative as quadras.|
+|Link do vídeo do teste realizado: | https://sl1nk.com/vEjQ3 | 
 
 ## Avaliação dos Testes de Software
 
