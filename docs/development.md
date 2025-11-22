@@ -10,19 +10,21 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito | Artefato | 
 |------|------------------------|------------|
-|RF-001| A aplicação deve permitir o cadastro de tenistas. | cadastro.html |
+|RF-001| A aplicação deve permitir o cadastro de tenistas e gerentes de quadras. | cadastro.html |
 |RF-002| A aplicação deve permitir o login de gerentes de quadras e tenistas. | login.html | 
 |RF-003| A aplicação deve permitir a inclusão e edição de informações do perfil do usuário. | meuperfil.html</br> alterarsalvo.html | 
 |RF-004| A aplicação deve permitir recuperação de senha de gerentes de quadras e tenistas. | recuper_senha_passo1.html</br> recuperar_senha_passo2.html | 
-|RF-005| A aplicação deve fornecer um acompanhamento da previsão do tempo para tenistas. | previsao_do_tempo.html | 
-|RF-006| A aplicação deve permitir o tenista filtrar os valores de uso das quadras, inclusive as gratuitas.| quadras_disponiveis.html | 
-|RF-007| A aplicação deve permitir a localização de quadras de tênis de acordo com a localização fornecida pelo tenista. | escolha_onde_jogar.html |
-|RF-008| A aplicação deve permitir que os gerentes de quadras cadastrem novas quadras e edite as já existentes, inative ou até mesmo exclua. | adicionar_quadras.html</br> editar_quadras.html |
-|RF-009| A aplicação deve permitir a disponibilização de contato do local responsável pela quadra cadastrada. | meusagendamentos.hmtl adicionar_quadra.html |
-|RF-010| A aplicação deve fornecer detalhes do agendamento realizado pelo tenista. | agendamento_confirmado.html meusagendamentos.html |
-|RF-011| A aplicação deve disponibilizar o calendário para o tenista. | marcar_na_minha_agenda.html |
-|RF-012| A aplicação deve mostrar as imagens das quadras contendo descrições abaixo delas. | quadras_disponiveis.html | 
-|RF-013| A aplicação deve ter descrições nas imagens (atributos alt) para pessoas com deficiência visual navegar. | a ser implementado |
+|RF-005| A aplicação deve fornecer o acompanhamento da previsão do tempo para tenistas. | previsao_do_tempo.html | 
+|RF-006| A aplicação deve permitir o tenista filtrar a quadra de acordo com a localização desejada.| quadras_disponiveis.html | 
+|RF-007| A aplicação deve aparecer as quadras ativas e inativas do gerente de quadra. | pagina_inicial_gerente.html |
+|RF-008| A aplicação deve permitir que o gerente de quadra consiga adicionar quadras. | adicionar_quadras.html |
+|RF-009| A aplicação deve permitir que o gerente de quadra ative e desative as quadras. | editar_quadras.html |
+|RF-010| A aplicação deve permitir que o gerente de quadra edite informações da quadra. |  editar_quadras.html |
+|RF-011| A aplicação deve mostrar as quadras disponiveis para o tenista de acordo com a disponibilidade para região. | quadras_disponiveis.html |
+|RF-012| A aplicação deve permitir a disponibilização de contato do local responsável pela quadra cadastrada. | meusagendamentos.html | 
+|RF-013| A aplicação deve fornecer detalhes do agendamento realizado pelo tenista. | agendamento_confirmado.html |
+|RF-014| A aplicação deve disponibilizar o calendário para o tenista. | marcar_na_minha_agenda.html |
+|RF-015| A aplicação deve permitir o cancelamento do agendamento. | meusagendamentos.html |
 
 ## Estruturas de dados
 
@@ -89,30 +91,24 @@ Cada página representa uma parte funcional da aplicação SocialTennis (por exe
 
 ### Estrutura de diretórios
 src/
-- adicionar_quadras.html
-- agendamento_confirmado.html
-- alterarsalvo.html
-- cadastro.html
-- editar_quadras.html
-- editarperfil.html
-- escolha_onde_jogar.html
-- home.html
-- Previsao_do_tempo.html
-- login.html
-- marcar_na_minha_agenda.html
-- meuperfil.html
-- meusagendamentos.html
-- pagina_inicial_gerente.html
-- quadras_disponiveis.html
-- recuperar_senha_passo1.html
-- recuperar_senha_passo2.html
-- styles.css
-- stylesperfil.css
-- forms.css
-- home.css
-- check.png
-- logo-oficial.png
-- usuario.png
+adicionar_quadras.html
+agendamento_confirmado.html
+cadastro.html
+editar_quadras.html
+editarperfil.html
+editarperfil_gerente.html
+escolha_onde_jogar.html
+index.html
+login.html
+marcar_na_minha_agenda.html
+meuperfil.html
+meuperfil_gerente.html
+meusagendamentos.html
+pagina_inicial_gerente.html
+previsao_do_tempo.html
+quadras_disponiveis.html
+recuperar_senha_passo1.html
+recuperar_senha_passo2.html
 
 ### Como acessar e verificar a implementação
 
