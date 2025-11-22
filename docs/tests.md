@@ -253,14 +253,16 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
-| 1             | Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando. |
-| 2             | Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço. |
+| 1             | O tenista deve realizar o cadastro pela primeira vez dentro do site |
+| 2             | O gerente de quadra deve adicionar uma quadra pela primeira vez |
+| 3             | O tenista deve realizar um agendamento de quadra |
+| 4             | O gerente de quadra desativar a quadra para uso |
 
 
 
 ## Registro de Testes de Usabilidade
 
-Cenário 1: Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando.
+Cenário 1: Você é um tenista e deve realizar o cadastro pela primeira vez dentro do site.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
@@ -271,12 +273,12 @@ Cenário 1: Você é uma pessoa que deseja comprar um iphone. Encontre no site u
 | **Média**     | 100%           | 5                | 28.02 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
 
+    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
+    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
+    tanto na hora da pesquisa, quanto depois dela, nos resultados.
 
-    Comentários dos usuários: Achei o site muito bom e intuitivo. 
-    Não tive dificuldades e acho que ficou bem intuitivo.
 
-
-Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço.
+Cenário 2: Você é um gerente de quadra e quer adicionar pela primeira vez a sua quadra dentro do site.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
@@ -284,10 +286,41 @@ Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,0
 | 2       | SIM             | 5                    | 31.42 segundos                          |
 | 3       | SIM             | 4                    | 36.21 segundos                          |
 |  |  |  |  |
-| **Média**     | 100%           | 4.67                | 30.05 segundos                           |
+| **Média**     | 100%           | 4.67                | 30.05 segundos                          
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+
+    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
+    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
+    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+
+
+Cenário 3: Você é um tenista e quer realizar um agendamento de quadra mais próximo a você.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 22.54 segundos                          |
+| 2       | SIM             | 5                    | 31.42 segundos                          |
+| 3       | SIM             | 4                    | 36.21 segundos                          |
+|  |  |  |  |
+| **Média**     | 100%           | 4.67                | 30.05 segundos                          
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
 
 
+    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
+    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
+    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+
+Cenário 4: Você é um gerente de quadra e quer desativar a sua quadra dentro do site.
+
+| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
+|---------|-----------------|----------------------|---------------------------------|
+| 1       | SIM             | 5                    | 22.54 segundos                          |
+| 2       | SIM             | 5                    | 31.42 segundos                          |
+| 3       | SIM             | 4                    | 36.21 segundos                          |
+|  |  |  |  |
+| **Média**     | 100%           | 4.67                | 30.05 segundos                          
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+    
     Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
     redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
     tanto na hora da pesquisa, quanto depois dela, nos resultados.
