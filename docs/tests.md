@@ -27,95 +27,201 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
 
 
-**Caso de Teste** | **CT01 - Criar conta (tenista)**
+**Caso de Teste** | **CT01 - Criar conta (Tenista)**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço web da aplicação <br> 2) Clique em "Cadastre-se" <br> 2) Preencha todos os campos do formulário e selecione tenista<br> 3) Clique no botão "Criar conta".
+**Procedimento**  | 1) Acesse o endereço web da aplicação <br> 2) Clique em "Cadastre-se" <br> 2) Preencha todos os campos do formulário e selecione tenista <br> 3) Clique no botão "Criar conta"
 **Requisitos associados** | RF-001
 **Resultado esperado** | Redirecionar para a página de login
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT02 - Criar conta (gerente de quadra)**
+**Caso de Teste** | **CT02 - Criar conta (Gerente de quadra)**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço web da aplicação <br> 2) Clique em "Cadastre-se" <br> 2) Preencha todos os campos do formulário e selecione gerente de quadra<br> 3) Clique no botão "Criar conta".
+**Procedimento**  | 1) Acesse o endereço web da aplicação <br> 2) Clique em "Cadastre-se" <br> 2) Preencha todos os campos do formulário e selecione gerente de quadra <br> 3) Clique no botão "Criar conta"
 **Requisitos associados** | RF-001
 **Resultado esperado** | Redirecionar para a página de login
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT03 - Logar conta (tenista)**
+**Caso de Teste** | **CT03 - Logar conta (Tenista)**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço web da aplicação <br> 2) Clique em "Entrar" <br> 2) Preencha todos os campos do formulário<br> 3) Clique no botão "Entrar".
+**Procedimento**  | 1) Acesse o endereço web da aplicação <br> 2) Clique em "Entrar" <br> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "Entrar"
 **Requisitos associados** | RF-002
 **Resultado esperado** | Redirecionar para a página inicial do tenista logado
 **Dados de entrada** | Inserção de dados válidos no formulário de login
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT04 - Logar conta (gerente de quadra)**
+**Caso de Teste** | **CT04 - Logar conta (Gerente de quadra)**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço web da aplicação <br> 2) Clique em "Entrar" <br> 2) Preencha todos os campos do formulário<br> 3) Clique no botão "Entrar".
+**Procedimento**  | 1) Acesse o endereço web da aplicação <br> 2) Clique em "Entrar" <br> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "Entrar"
 **Requisitos associados** | RF-002
-**Resultado esperado** | Redirecionar para a página inicial do gerente de quadra logado
+**Resultado esperado** | Redirecionar para a página inicial do gerente de quadra logado.
 **Dados de entrada** | Inserção de dados válidos no formulário de login
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT05 - Recuperar senha - parte 1 (tenista/gerente de quadra)**
+**Caso de Teste** | **CT05 - Recuperar senha - parte 1 (Tenista/Gerente de quadra)**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço web do login da aplicação <br> 2) Clique em "Esqueci minha senha" <br> 2) Preencha o campo de e-mail do formulário<br> 3) Clique no botão "Continuar".
+**Procedimento**  | 1) Acesse o endereço web do login da aplicação <br> 2) Clique em "Esqueci minha senha" <br> 2) Preencha o campo de e-mail do formulário<br> 3) Clique no botão "Continuar"
 **Requisitos associados** | RF-004
-**Resultado esperado** | Redirecionar para a segunda página de recuperação de senha 
+**Resultado esperado** | Redirecionar para a segunda página de recuperação de senha.
 **Dados de entrada** | Inserção de dados válidos no formulário de login
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT06 - Recuperar senha - parte 2 (tenista/gerente de quadra)**
+**Caso de Teste** | **CT06 - Recuperar senha - parte 2 (Tenista/Gerente de quadra)**
  :--------------: | ------------
-**Procedimento**  | 1) Preencha todos os campos do formulário<br> 2) Clique em "Confirmar".
+**Procedimento**  | 1) Preencha todos os campos do formulário <br> 2) Clique em "Confirmar"
 **Requisitos associados** | RF-004
-**Resultado esperado** | Senha nova é criada e é redirecionado para a página de login
+**Resultado esperado** | Senha nova é criada e é redirecionado para a página de login.
 **Dados de entrada** | Inserção de dados válidos no formulário de login
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT07 - Página inicial (tenista)**
+**Caso de Teste** | **CT07 - Página inicial (Tenista)**
  :--------------: | ------------
-**Procedimento**  | 1) Preencha todos os campos do formulário<br> 2) Clique em "Escolher".
+**Procedimento**  | 1) Preencha todos os campos do formulário de login <br> 2) Clique em "Escolher"
+**Requisitos associados** | RF-011
+**Resultado esperado** | Prosseguir para a página das quadras disponíveis.
+**Dados de entrada** | Inserção de dados válidos no formulário de login
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT08 - Página inicial (Gerente)**
+ :--------------: | ------------
+**Procedimento**  | 1) Suas quadras ativas e desativadas são exibidas
 **Requisitos associados** | RF-007
-**Resultado esperado** | Prosseguir para a página das quadras disponíveis
+**Resultado esperado** | Exibir as quadras ativas e desativadas.
 **Dados de entrada** | Inserção de dados válidos no formulário de login
 **Resultado obtido** | Sucesso
 
-**Caso de Teste** | **CT08 - Página inicial (gerente)**
+**Caso de Teste** | **CT09 - Escolha onde Jogar (Tenista)**
  :--------------: | ------------
-**Procedimento**  | 1) Suas quadras ativas e desativadas são exibidas.
+**Procedimento**  | 1) Preenchimento dos campos "Estado" e "Cidade" (Bairro como opcional)<br> 2) Clique em "Escolher"
+**Requisitos associados** | RF-006
+**Resultado esperado** | Selecionar a quadra mais próxima.
+**Dados de entrada** | Inserção de dados válidos em "Estado" e "Cidade"
+**Resultado obtido** | Sucesso 
+
+**Caso de Teste** | **CT10 - Minhas Quadras (Gerente)**
+ :--------------: | ------------
+**Procedimento**  | 1) Menu <br> 2) Minhas Quadras<br> 3) Exibição da "Página Inicial"
+**Requisitos associados** | RF-007
+**Resultado esperado** | Apresentação das quadras ativas e desativadas 
+**Dados de entrada** | N/A
+**Resultado obtido** | Sucesso 
+
+**Caso de Teste** | **CT11 - Quadras Disponiveis (Tenista)**
+ :--------------: | ------------
+**Procedimento**  | 1) Preenchimento dos campos obrigátorios em "Escolha onde Jogar"<br> 2) Selecionar a quadra disponível para localização desejada
+**Requisitos associados** | RF-011
+**Resultado esperado** | Exibição das quadras disponiveis para localização selecionada 
+**Dados de entrada** | N/A
+**Resultado obtido** | Sucesso 
+
+**Caso de Teste** | **CT12 - Adicionar Quadra (Gerente)**
+ :--------------: | ------------
+**Procedimento**  | 1) Menu <br> 2) Adicionar Novas Quadras <br> 3) Preenchimento dos campos obrigátorios <br> 3) Selecionar o status atual da quadra<br> 4) Adicionar
+**Requisitos associados** | RF-008
+**Resultado esperado** | Adicionar quadras para a localização desejada. 
+**Dados de entrada** | Campos obrigatórios: Nome, Preço, Horário, Contato, Estado, Cidade, Bairro, Rua e Status ("Regras de uso" como opcional para preenchimento).
+**Resultado obtido** | Sucesso 
+
+**Caso de Teste** | **CT13 - Marcar na minha Agenda (Tenista)**
+ :--------------: | ------------
+**Procedimento**  | 1) Selecionar a quadra desejada <br> 2) Selecionar a data de preferência <br> 3) Selecionar o horário de preferência <br> 3) Clique em "Agendar"
+**Requisitos associados** | RF-013
+**Resultado esperado** | Agendar uma data para utilização da quadra.
+**Dados de entrada** | Data e Horário
+**Resultado obtido** | Sucesso 
+
+**Caso de Teste** | **CT14 - Editar Quadra (Gerente)**
+ :--------------: | ------------
+**Procedimento**  | 1) Pagina inicial <br> 2) Clique na quadra desejada <br> 3) Editar as informações desejadas <br> 4) Salvar
+**Requisitos associados** | RF-010
+**Resultado esperado** | Edite as informações da quadra
+**Dados de entrada** | Campos desejados (Nome, Preço, Horário, Contato, Estado, Cidade, Bairro, Rua e Status)
+**Resultado obtido** | Sucesso 
+
+**Caso de Teste** | **CT15 - Agenda (Tenista)**
+ :--------------: | ------------
+**Procedimento**  | 1) Menu <br> 2) Agenda <br> 3) Meus Agendamentos
+**Requisitos associados** | RF-013
+**Resultado esperado** | Visualizar os agendamentos feitos
+**Dados de entrada** | N/A
+**Resultado obtido** | Sucesso 
+
+**Caso de Teste** | **CT16 - Excluir Quadra (Gerente)**
+ :--------------: | ------------
+**Procedimento**  | 1) Pagina inicial <br> 2) Clique na quadra desejada <br> 3) Excluir
+**Requisitos associados** | RF-008
+**Resultado esperado** | Excluir quadra selecionada
+**Dados de entrada** | N/A
+**Resultado obtido** | Sucesso 
+
+**Caso de Teste** | **CT17 - Cancelar Agendamento (Tenista)**
+ :--------------: | ------------
+**Procedimento**  | 1) Menu <br> 2) Agenda <br> 3) Meus Agendamentos <br> 4) "Cancelar agendamento"
+**Requisitos associados** | RF-15
+**Resultado esperado** | Cancelar o agendamento feito
+**Dados de entrada** | N/A
+**Resultado obtido** | Sucesso 
+
+**Caso de Teste** | **CT18 - Meu Perfil (Tenista)**
+ :--------------: | ------------
+**Procedimento**  | 1) Menu <br> 2) Meu Perfil <br> 
+**Requisitos associados** | RF-003
+**Resultado esperado** | Visualizar "Editar Perfil" e "Minha Agenda"
+**Dados de entrada** | N/A
+**Resultado obtido** | Sucesso 
+
+**Caso de Teste** | **CT19 - Meu Perfil (Gerente)**
+ :--------------: | ------------
+**Procedimento**  | 1) Menu <br> 2) Meu Perfil <br> 
+**Requisitos associados** | RF-003
+**Resultado esperado** | Visualizar "Editar Perfil" e "Minhas Quadras"
+**Dados de entrada** | N/A
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT20 - Editar Perfil (Tenista)**
+ :--------------: | ------------
+**Procedimento**  | 1) Menu <br> 2) Meu Perfil <br> 3) Editar Perfil <br> 4) Salvar Alterações
+**Requisitos associados** | RF-003
+**Resultado esperado** | Visualizar "Editar Perfil" e "Minhas Quadras"
+**Dados de entrada** | Preenchimento de algum dos campos: "Editar Nome", "Editar Email" ou "Redefinir Senha" 
+**Resultado obtido** | Sucesso
+
+**Caso de Teste** | **CT21 - Editar Perfil (Gerente)**
+ :--------------: | ------------
+**Procedimento**  | 1) Menu <br> 2) Meu Perfil <br> 3) Editar Perfil <br> 4) Salvar Alterações
+**Requisitos associados** | RF-003
+**Resultado esperado** | Visualizar "Editar Perfil" e "Minhas Quadras"
+**Dados de entrada** | Preenchimento de algum dos campos: "Editar Nome", "Editar Email" ou "Redefinir Senha" 
+**Resultado obtido** | Sucesso
+
+
+**Caso de Teste** | **CT22 - Previsão do tempo (Tenista)**
+ :--------------: | ------------
+**Procedimento**  | 1) Menu <br> 2) Previsão do tempo <br> 3) Selecione a localização <br> 4) Clique em "Buscar Previsão"
+**Requisitos associados** | RF-005
+**Resultado esperado** | Visualizar a previsão do tempo para o dia atual
+**Dados de entrada** | Preenchimento obrigátorio do campo "Cidade"
+**Resultado obtido** | Sucesso 
+
+
+**Caso de Teste** | **CT23 - Sair (Gerente)**
+ :--------------: | ------------
+**Procedimento**  | 1) Menu <br> 2) Sair 
 **Requisitos associados** | RF-00
-**Resultado esperado** | Exibir as quadras ativas e desativadas
-**Dados de entrada** | Inserção de dados válidos no formulário de login
-**Resultado obtido** | Sucesso
+**Resultado esperado** | Deslogar da conta
+**Dados de entrada** | N/A
+**Resultado obtido** | Sucesso 
 
-
-
-
-
-
-
-
-
-
-
-**Caso de Teste** | **CT01 - Criar conta parte 1**
+**Caso de Teste** | **CT24 - Sair (Tenista)**
  :--------------: | ------------
-**Procedimento**  | 1) Acesse o endereço www.teste.com.br <br> 2) Clique em criar conta <br> 2) Preencha todos os campos do formulário <br> 3) Clique no botão "Continuar".
-**Requisitos associados** | RF-001
-**Resultado esperado** | Prosseguir para a parte 2 do cadastro
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
-**Resultado obtido** | Sucesso
+**Procedimento**  | 1) Menu <br> 2) Sair 
+**Requisitos associados** | RF-00
+**Resultado esperado** | Deslogar da conta
+**Dados de entrada** | N/A
+**Resultado obtido** | Sucesso 
 
-**Caso de Teste** | **CT02 - Criar conta parte 2**
- :--------------: | ------------
-**Procedimento**  | 1) Preencha todos os campos do formulário <br> 2) Clique no botão "Criar conta" <br> 
-**Requisitos associados** | RF-001
-**Resultado esperado** | Usuário cadastrado
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro
-**Resultado obtido** | Sucesso
+
 
 ## Registro dos Testes de Software
 
