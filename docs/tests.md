@@ -249,7 +249,7 @@ A documentação dos testes é dividida nas seguintes seções:
 |*Caso de Teste*                                 |*CT08 - Quadras Disponiveis (Tenista)*                       |
 |---|---|
 |Requisito Associado | RF-011 - A aplicação deve mostrar as quadras disponiveis para o tenista de acordo com a disponibilidade para região.|
-|Link do vídeo do teste realizado: | https://sl1nk.com/ZLekR | 
+|Link do vídeo do teste realizado:  | https://sl1nk.com/ZLekR | 
 
 |*Caso de Teste*                                 |*CT09 - Página Inicial: Minhas Quadras (Gerente)*                       |
 |---|---|
