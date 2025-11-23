@@ -330,10 +330,6 @@ A documentação dos testes é dividida nas seguintes seções:
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
 
-## Testes de unidade automatizados (Opcional)
-
-Se o grupo tiver interesse em se aprofundar no desenvolvimento de testes de software, ele podera desenvolver testes automatizados de software que verificam o funcionamento das funções JavaScript desenvolvidas. Para conhecer sobre testes unitários em JavaScript, leia 0 documento  [Ferramentas de Teste para Java Script](https://geekflare.com/javascript-unit-testing/).
-
 # Testes de Usabilidade
 
 O objetivo do Plano de Testes de Usabilidade é obter informações quanto à expectativa dos usuários em relação à  funcionalidade da aplicação de forma geral.
@@ -356,9 +352,21 @@ Tempo para conclusão da tarefa: em segundos, e em comparação com o tempo util
 
 Objetivando respeitar as diretrizes da Lei Geral de Proteção de Dados, as informações pessoais dos usuários que participaram do teste não foram coletadas, tendo em vista a ausência de Termo de Consentimento Livre e Esclarecido.
 
-Apresente os cenários de testes utilizados na realização dos testes de usabilidade da sua aplicação. Escolha cenários de testes que demonstrem as principais histórias de usuário sendo realizadas. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
+### Funcionalidades Avaliadas, Grupo de Usuários e Ferramentas
 
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+**Funcionalidades avaliadas:**
+  * Cadastro e login de utilizadores (RF-001 - RF-002).
+  * Inclusão de novas quadras por parte do Gerente de quadra (RF-008).
+  * Ativação e Inativação de quadra por parte do Gerente de quadra (RF-009).
+  * Localização de quadra mais próxima sendo tenista (RF-011).
+  * Intuitividade e design geral da plataforma.
+
+* **Grupo de usuários:** O grupo foi composto por 2 participantes
+  
+**Ferramentas utilizadas:**
+  * **VS Code:** Para executar a programação do site.
+  * **Cronômetro online:** Para verificar o tempo de conclusão de cada cenário.
+  * **Excel:** Para registro dos dados durante as avaliações.
 
 
 ## Cenários de Teste de Usabilidade
