@@ -432,12 +432,6 @@ Cenário 4: Você é um gerente de quadra e quer desativar a sua quadra dentro d
     2) Prático
 ## Avaliação dos Testes de Usabilidade
 
-Tomando como base os resultados obtidos, foi possível verificar que a aplicação web apresenta bons resultados quanto à taxa de sucesso na interação dos usuários, tendo em vista que os cenários propostos foram concluídos com sucesso.
+A execução do plano de testes de software, cobrindo 3 casos de teste principais, permitiu uma análise abrangente da implementação dos requisitos funcionais do sistema SocialTennis. Os resultados obtidos foram majoritariamente positivos, validando o trabalho desenvolvido, mas também revelaram oportunidades claras para aprimoramento em futuras iterações.
 
-Além disso, a aplicação obteve também uma elevada satisfação subjetiva dos usuários no momento que realizavam os cenários propostos. Prova são as médias das avaliações em cada um dos cenários, que variou entre 4 (bom) e 5 (ótimo).
-
-Com relação ao tempo para conclusão de cada tarefa/cenário, notamos discrepância entre a média de tempo dos usuários e o tempo do especialista/desenvolvedor em todos os cenários. Tal discrepância, em certa medida, é esperada, tendo em vista que o desenvolvedor já tem prévio conhecimento de toda a interface da aplicação, do posicionamento dos elementos, lógica de organização das páginas, etc.
-
-Contudo, tendo em vista que a diferença foi relevante (por exemplo, 113 segundos — média usuários — contra 25 segundos — especialista — no cenário três), e ainda os comentários feitos por alguns usuários, entendemos haver oportunidades de melhoria na usabilidade da aplicação.
-
-</div>
+Os testes de software demonstraram que o SocialTennis é uma aplicação funcional e que atende a todos os requisitos essenciais propostos. Os pontos fortes residem na implementação bem-sucedida dos fluxos de gerente de quadra e tenista. Os pontos fracos identificados não são falhas nas funcionalidades existentes, mas sim oportunidades de evolução arquitetural e de processo que fornecem um roteiro claro e profissional para os próximos passos do projeto.
