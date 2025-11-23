@@ -435,3 +435,14 @@ Cenário 4: Você é um gerente de quadra e quer desativar a sua quadra dentro d
 A execução do plano de testes de software, cobrindo 3 casos de teste principais, permitiu uma análise abrangente da implementação dos requisitos funcionais do sistema SocialTennis. Os resultados obtidos foram majoritariamente positivos, validando o trabalho desenvolvido, mas também revelaram oportunidades claras para aprimoramento em futuras iterações.
 
 Os testes de software demonstraram que o SocialTennis é uma aplicação funcional e que atende a todos os requisitos essenciais propostos. Os pontos fortes residem na implementação bem-sucedida dos fluxos de gerente de quadra e tenista. Os pontos fracos identificados não são falhas nas funcionalidades existentes, mas sim oportunidades de evolução arquitetural e de processo que fornecem um roteiro claro e profissional para os próximos passos do projeto.
+
+A análise dos cenários dos avaliadores (1 e 2) revela insights importantes para a evolução da plataforma:
+
+1) **(Cenário 1):** Um insight importante é a parte de login e cadastre-se estar dentro do menu e não na tela da página "home". Foi levantando esse ponto por parte do avaliador e uma implementação do botão login e cadastro dentro da página home tornaria o site mais eficiente e agradavél para o usuário.
+      Outro levantamento foi a questão do sistema de segurança da senha, a ausência de incluir senhas fortes e caracteres especiais ficou faltando para um sistema maior de segurança. 
+
+2) **(Cenário 2):** Tivemos dois feedbacks e um ponto principal visto pelo avaliador é a possibilidade de criar quadras com nomes existente dentro já do próprio site. Isso fez com que ele tivesse a reflexão de que o gerente de quadra não saberia diferenciar a sua própria quadra com um nome similiar criada por um outro gerente de quadra.
+
+3) **(Cenário 3):** Um ponto levantando nesse cenário foi a parte de preenchimento na parte de "Estado", onde não era informado ao tenista que deveria preencher apenas as siglas. Isso deveria ser sinalizado por parte do sistema ou ter algum bloqueio que influenciaria o tenista preenchesse apenas as siglas do Estado Ex: SP, MG...
+
+Conclui-se que a aplicação tem sucesso em usabilidade, com uma base sólida e bem recebida pelos perfis de usuário. As recomendações para futuras versões são claras: Senhas com caracteres,  Login e cadastre-se na página "home", Bloqueio de criação de nomes de quadras já existentes, Ter uma sinalização no preenchimento do "Estado" com siglas. 
