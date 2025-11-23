@@ -445,4 +445,4 @@ A análise dos cenários dos avaliadores (1 e 2) revela insights importantes par
 
 3) **(Cenário 3):** Um ponto levantando nesse cenário foi a parte de preenchimento na parte de "Estado", onde não era informado ao tenista que deveria preencher apenas as siglas. Isso deveria ser sinalizado por parte do sistema ou ter algum bloqueio que influenciaria o tenista preenchesse apenas as siglas do estado Ex: SP, MG...
 
-Conclui-se que a aplicação tem sucesso em usabilidade, com uma base sólida e bem recebida pelos perfis de usuário. As recomendações para futuras versões são claras: Senhas com caracteres,  Login e cadastre-se na página "home", Bloqueio de criação de nomes de quadras já existentes e Ter uma sinalização no preenchimento do "Estado" com siglas. 
+Conclui-se que a aplicação tem sucesso em usabilidade, com uma base sólida e bem recebida pelos perfis de usuário. As recomendações para futuras versões são claras: Senhas com caracteres,  Login e cadastre-se na página "home", Bloqueio de criação de nomes de quadras já existentes e ter uma sinalização no preenchimento do "Estado" com siglas. 
