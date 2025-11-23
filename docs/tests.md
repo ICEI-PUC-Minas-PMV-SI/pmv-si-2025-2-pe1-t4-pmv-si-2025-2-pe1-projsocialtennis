@@ -311,12 +311,12 @@ A documentação dos testes é dividida nas seguintes seções:
 
 |*Caso de Teste*                                 |*CT21 - Sair (Gerente)*                       |
 |---|---|
-|Requisito Associado | RF-000|
+|Requisito Associado | RF-002|
 |Link do vídeo do teste realizado: | [clique aqui](https://sgapucminasbr-my.sharepoint.com/personal/1629415_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=IQDzzYvHHEALRLlBM46viycFAXlpir6lRDPRneKCx_tjEoA)| 
 
 |*Caso de Teste*                                 |*CT22 - Sair (Tenista)*                       |
 |---|---|
-|Requisito Associado | RF-000|
+|Requisito Associado | RF-002|
 |Link do vídeo do teste realizado: | [clique aqui](https://sgapucminasbr-my.sharepoint.com/personal/1629415_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=IQAjYMD7jz1hQbnVIumhlEc9AY9-5v03_NO1Vq7jMWEjYLk) | 
 
 |*Caso de Teste*                                 |*CT23 - Mudar status quadras (Gerente)*                       |
