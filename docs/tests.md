@@ -214,7 +214,7 @@ A documentação dos testes é dividida nas seguintes seções:
 |*Caso de Teste*                                 |*CT01 - Criar conta (Tenista)*                                         |
 |---|---|
 |Requisito Associado | RF-001 - A aplicação deve permitir o cadastro de tenistas e gerentes de quadras.|
-|Link do vídeo do teste realizado: | https://l1nq.com/pJJIY |
+|Link do vídeo do teste realizado: | [clique aqui](https://sgapucminasbr-my.sharepoint.com/personal/1629415_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=IQAo3lyC2gRESaQ0a3n7ogG7AWEbOVvE2QGQD4XRoIw6bAg) |
 
 |*Caso de Teste*                                 |*CT02 - Criar conta (Gerente de quadra)*                              |
 |---|---|
