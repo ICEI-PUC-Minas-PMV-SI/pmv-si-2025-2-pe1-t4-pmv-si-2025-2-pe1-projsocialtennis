@@ -326,7 +326,21 @@ A documentação dos testes é dividida nas seguintes seções:
 
 ## Avaliação dos Testes de Software
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+A execução dos testes de software mostrou que o sistema atendeu com sucesso aos requisitos funcionais e de interface previstos para cada perfil de usuário. O principal ponto forte observado foi a conformidade dos fluxos principais: cadastro, login, recuperação de senha, agendamento e gerenciamento de quadras, todos funcionaram conforme o esperado em múltiplos cenários. Além disso, a estrutura modular dos testes de caixa preta permitiu identificar rapidamente qualquer discrepância entre a experiência prevista e a entregue aos usuários finais.
+
+Por outro lado, os testes revelaram pontos que podem ser aprimorados. Entre os aspectos menos robustos, destaca-se a falta de validação para nomes duplicados de quadras, que pode levar à confusão de usuários gerentes e dificultar a administração no futuro. Também foi detectado que o sistema de senha não exige critérios mínimos de segurança, como caracteres especiais, o que representa um risco para a proteção dos dados dos usuários. Outro ponto a ser ajustado é a sinalização para preenchimento correto do campo "Estado": falta clareza de que o usuário deve inserir apenas a sigla, podendo inviabilizar buscas por região.
+
+Além disso, na página de previsão do tempo o campo para digitação da cidade está com um tamanho inadequado. Por exemplo, ao digitar "São Paulo﻿", o nome da cidade fica parcialmente oculto, prejudicando a experiência do usuário. Essa interface precisa ser ajustada para permitir a visualização completa do texto digitado. Também seria importante incluir uma seleção de data nessa página, para que o usuário possa consultar a previsão do tempo para datas específicas, não apenas para o dia atual.
+
+Para implementar estes pontos nas próximas iterações, o grupo pretende:
+- Implementar validação de nomes de quadras para garantir unicidade, impedindo duplicidade entre diferentes gerentes.
+- Adicionar regras de validação forte de senha, exigindo combinação de letras maiúsculas, minúsculas, números e caracteres especiais, elevando o requisito de segurança.
+- Inserir mensagens e indicações visuais para guiar o usuário ao preencher o campo "Estado" corretamente.
+- Ajustar o tamanho do campo de cidade na página de previsão do tempo para melhor visualização do texto.
+- Incluir a funcionalidade de seleção de data na página de previsão do tempo para consultas específicas.
+- Refinar o teste exploratório para ampliar a detecção de falhas de usabilidade e garantir maior adaptabilidade do sistema às necessidades dos perfis de usuário.
+
+As principais falhas detectadas nesta rodada de testes foram: possibilidade de duplicação de nomes de quadras, ausência de critério para senha forte, dificuldades no preenchimento do campo de localização regional e limitações na interface da página de previsão do tempo. As melhorias já encaminhadas incluem o planejamento de implementação dos novos bloqueios de validação, revisão da interface do formulário, aperfeiçoamento das regras de segurança e ajustes na página de previsão do tempo para otimizar a usabilidade e funcionalidade.
 
 # Testes de Usabilidade
 
