@@ -378,65 +378,58 @@ Cenário 1: Você é um tenista e deve realizar o cadastro pela primeira vez den
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 27.87 segundos                  |
-| 2       | SIM             | 5                    | 17.11 segundos                  |
-| 3       | SIM             | 5                    | 39.09 segundos                  |
+| 1       | SIM             | 4                    | 01:16 (76 segundos)             |
+| 2       | SIM             | 4                    | 00:37 segundos                  |
 |  |  |  |  |
-| **Média**     | 100%           | 5                | 28.02 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
+| **Média**     | 100%      | 4                    | 56,5 segundos                   |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 00:19 segundos |
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
-
+    Comentários dos usuários: 
+    1) Login deveria estar na página inicial ao invés de procurar no menu.
+    2) Apenas o sistema de segurança de senha deixou a desejar (usando a senha 123).
 
 Cenário 2: Você é um gerente de quadra e quer adicionar pela primeira vez a sua quadra dentro do site.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 4                    | 36.21 segundos                          |
+| 1       | SIM             | 3                    | 02:32 (152 segundos)            |
+| 2       | SIM             | 4                    | 01:29 (89 segundos)             |
 |  |  |  |  |
-| **Média**     | 100%           | 4.67                | 30.05 segundos                          
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Média**     |   100%    |   3.5                | 120.5 segundos                  |        
+| **Tempo para conclusão pelo especialista** | SIM | 4 | 01:10 (70 segundos) |
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
-
+    Comentários dos usuários: 
+    1) Usuário gostaria que já tivesse os preços definidos.
+    2) Conseguiu criar uma quadra com um nome que já existia, uma recomendação é se tivesse um bloqueio de nome já utilizada por um outro gerente por exemplo 
 
 Cenário 3: Você é um tenista e quer realizar um agendamento de quadra mais próximo a você.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 4                    | 36.21 segundos                          |
+| 1       | SIM             | 4                    | 01:58 (118 segundos)            |
+| 2       | SIM             | 5                    | 00:40 segundos                  |
 |  |  |  |  |
-| **Média**     | 100%           | 4.67                | 30.05 segundos                          
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Média**     |   100%    |        4.5           |     79 segundos                 |
+| **Tempo para conclusão pelo especialista** | SIM | 4 | 23 segundos |
 
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+    Comentários dos usuários: 
+    1) O Calendário deveria ser mais simples visualmente falando ou digitar de forma manual. Outro detalhe é na parte do "Estado". Sinalizar que deve colocar apenas as inicias e não o nome inteiro do estado.
+    2) Prático e rápido
 
 Cenário 4: Você é um gerente de quadra e quer desativar a sua quadra dentro do site.
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 4                    | 36.21 segundos                          |
+| 1       | SIM             | 5                    | 00:21 segundos                  |
+| 2       | SIM             | 5                    | 00:19 segundos                  |
 |  |  |  |  |
-| **Média**     | 100%           | 4.67                | 30.05 segundos                          
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Média**     | 100%      | 5                    | 20 segundos                     |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 00:08 segundos |
     
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
-
+    Comentários dos usuários: 
+    1) Rápido e intuitivo. Muito bom!
+    2) Prático
 ## Avaliação dos Testes de Usabilidade
 
 Tomando como base os resultados obtidos, foi possível verificar que a aplicação web apresenta bons resultados quanto à taxa de sucesso na interação dos usuários, tendo em vista que os cenários propostos foram concluídos com sucesso.
