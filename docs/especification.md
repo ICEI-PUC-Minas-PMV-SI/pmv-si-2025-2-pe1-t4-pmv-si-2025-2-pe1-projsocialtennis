@@ -51,7 +51,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Descrição do Requisito | Prioridade | 
 |------|------------------------|------------|
 |RF-001| A aplicação deve permitir o cadastro de tenistas e gerentes de quadras. | Alta |
-|RF-002| A aplicação deve permitir o login de gerentes de quadras e tenistas. | Alta | 
+|RF-002| A aplicação deve permitir o login e o logout de gerentes de quadras e tenistas. | Alta | 
 |RF-003| A aplicação deve permitir a inclusão e edição de informações do perfil do usuário. | Alta | 
 |RF-004| A aplicação deve permitir recuperação de senha de gerentes de quadras e tenistas. | Alta | 
 |RF-005| A aplicação deve fornecer o acompanhamento da previsão do tempo para tenistas. | Alta | 
