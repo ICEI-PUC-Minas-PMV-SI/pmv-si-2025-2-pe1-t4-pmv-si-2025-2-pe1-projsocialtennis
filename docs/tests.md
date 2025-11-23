@@ -136,7 +136,7 @@ A documentação dos testes é dividida nas seguintes seções:
 **Caso de Teste** | **CT15 - Cancelar Agendamento (Tenista)**
  :--------------: | ------------
 **Procedimento**  | 1) Menu <br> 2) Agenda <br> 3) Meus Agendamentos <br> 4) "Cancelar agendamento"
-**Requisitos associados** | RF-15
+**Requisitos associados** | RF-015
 **Resultado esperado** | Cancelar o agendamento feito
 **Dados de entrada** | N/A
 **Resultado obtido** | Sucesso 
@@ -184,7 +184,7 @@ A documentação dos testes é dividida nas seguintes seções:
 **Caso de Teste** | **CT21 - Sair (Gerente)**
  :--------------: | ------------
 **Procedimento**  | 1) Menu <br> 2) Sair 
-**Requisitos associados** | RF-00
+**Requisitos associados** | RF-002
 **Resultado esperado** | Deslogar da conta
 **Dados de entrada** | N/A
 **Resultado obtido** | Sucesso 
@@ -192,7 +192,7 @@ A documentação dos testes é dividida nas seguintes seções:
 **Caso de Teste** | **CT22 - Sair (Tenista)**
  :--------------: | ------------
 **Procedimento**  | 1) Menu <br> 2) Sair 
-**Requisitos associados** | RF-00
+**Requisitos associados** | RF-002
 **Resultado esperado** | Deslogar da conta
 **Dados de entrada** | N/A
 **Resultado obtido** | Sucesso 
