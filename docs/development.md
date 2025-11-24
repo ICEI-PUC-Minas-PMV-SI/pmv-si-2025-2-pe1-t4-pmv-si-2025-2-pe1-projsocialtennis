@@ -118,60 +118,53 @@ git clone https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2025-2-pe1-projsocialt
 
 Acesse a pasta src/ e abra qualquer uma das páginas .html em um navegador web (por exemplo, Google Chrome ou Edge).
 
-### Para verificar a estrutura e os dados representados:
+## Tipagem e Validação dos Campos
 
-Clique com o botão direito na página e selecione “Ver código-fonte da página”.
-
-Localize as seções principais de cada página (header, main, footer).
-
-Observe os elementos HTML que representam os dados descritos na seção “Estruturas de dados” deste documento.
-
-Caso deseje inspecionar o layout e a organização visual:
-
-Utilize as ferramentas de desenvolvedor (botão direito do mouse ou pressione F12 → guia Elements ou Inspecionar).
-
-É possível visualizar as classes CSS aplicadas a cada componente e confirmar o posicionamento, imagens e textos exibidos.
-
-Observação: nesta etapa, as páginas ainda não possuem funcionalidade dinâmica (JavaScript ou banco de dados).
-Os dados apresentados nas páginas são exemplos estáticos que seguem o modelo definido nas estruturas de dados.
-
-
-
-
-## Explicação padrão da página
-
-Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
-
-Para cada requisito funcional, pode ser entregue um artefato desse tipo.
-
-O professor Rommel Carneiro apresenta alguns exemplos prontos para serem utilizados como referência:
-- Login do sistema: [https://repl.it/@rommelpuc/LoginApp](https://repl.it/@rommelpuc/LoginApp) 
-- Cadastro de Contatos: [https://repl.it/@rommelpuc/Cadastro-de-Contatos](https://repl.it/@rommelpuc/Cadastro-de-Contatos)
-
-
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
-
-## Exemplo
-
-## Requisitos Atendidos
-
-As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais que relacionam o escopo do projeto com os artefatos criados:
-
-### Requisitos Funcionais
-
-## Descrição das estruturas:
-
-## Notícia
-|  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
-|:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
-| Id             | Numero (Inteiro)  | Identificador único da notícia            | 1                                              |
-| Título         | Texto             | Título da notícia                         | Sistemas de Informação PUC Minas é o melhor                                   |
-| Conteúdo       | Texto             | Conteúdo da notícia                       | Sistemas de Informação da PUC Minas é eleito o melhor curso do Brasil                            |
-| Id do usuário  | Numero (Inteiro)  | Identificador do usuário autor da notícia | 1                                              |
-</div>
+| Página                         | Campo                  | Tipo de Input | Regra/Validação                                    |
+|--------------------------------|------------------------|---------------|----------------------------------------------------|
+| cadastro.html                  | Nome                   | text          | Obrigatório (preenchimento)                        |
+| cadastro.html                  | E-mail                 | text          | Obrigatório (preenchimento)                        |
+| cadastro.html                  | Senha                  | password      | Obrigatório (preenchimento)                        |
+| cadastro.html                  | Perfil                 | select        | Obrigatório (Tenista ou Gerente de quadra)         |
+| login.html                     | E-mail                 | text          | Obrigatório (preenchimento)                        |
+| login.html                     | Senha                  | password      | Obrigatório (preenchimento)                        |
+| recuperar_senha_passo1.html    | E-mail                 | text          | Obrigatório (preenchimento)                        |
+| recuperar_senha_passo2.html    | Nova senha             | password      | Obrigatório (preenchimento)                        |
+| recuperar_senha_passo2.html    | Confirmar senha        | password      | Obrigatório (preenchimento e deve coincidir)       |
+| escolha_onde_jogar.html        | Estado                 | text          | Obrigatório                                        |
+| escolha_onde_jogar.html        | Cidade                 | text          | Obrigatório                                        |
+| escolha_onde_jogar.html        | Bairro                 | text          | Opcional                                           |
+| adicionar_quadras.html         | Nome da quadra         | text          | Obrigatório (preenchimento)                        |
+| adicionar_quadras.html         | Preço                  | text          | Opcional (máscara R$ XX,XX, apenas números)        |
+| adicionar_quadras.html         | Horário                | text          | Obrigatório (preenchimento)                        |
+| adicionar_quadras.html         | Contato                | text          | Obrigatório (máscara telefone, apenas números)     |
+| adicionar_quadras.html         | Estado                 | select        | Obrigatório (27 estados brasileiros)               |
+| adicionar_quadras.html         | Cidade                 | text          | Obrigatório (preenchimento)                        |
+| adicionar_quadras.html         | Bairro                 | text          | Obrigatório (preenchimento)                        |
+| adicionar_quadras.html         | Rua                    | text          | Obrigatório (preenchimento)                        |
+| adicionar_quadras.html         | Número                 | text          | Obrigatório (preenchimento)                        |
+| adicionar_quadras.html         | Complemento            | text          | Obrigatório (preenchimento)                        |
+| adicionar_quadras.html         | Regras de Uso          | textarea      | Obrigatório (preenchimento)                        |
+| adicionar_quadras.html         | Status da quadra       | select        | Obrigatório (Ativa ou Inativa)                     |
+| editar_quadras.html            | Nome da quadra         | text          | Obrigatório (preenchimento)                        |
+| editar_quadras.html            | Preço                  | text          | Opcional (máscara R$ XX,XX, apenas números)        |
+| editar_quadras.html            | Horário                | text          | Obrigatório (preenchimento)                        |
+| editar_quadras.html            | Contato                | text          | Obrigatório (máscara telefone, apenas números)     |
+| editar_quadras.html            | Estado                 | select        | Obrigatório (27 estados brasileiros)               |
+| editar_quadras.html            | Cidade                 | text          | Obrigatório (preenchimento)                        |
+| editar_quadras.html            | Bairro                 | text          | Obrigatório (preenchimento)                        |
+| editar_quadras.html            | Rua                    | text          | Obrigatório (preenchimento)                        |
+| editar_quadras.html            | Número                 | text          | Obrigatório (preenchimento)                        |
+| editar_quadras.html            | Complemento            | text          | Obrigatório (preenchimento)                        |
+| editar_quadras.html            | Regras de Uso          | textarea      | Obrigatório (preenchimento)                        |
+| editar_quadras.html            | Status da quadra       | select        | Obrigatório (Ativa ou Inativa)                     |
+| editarperfil.html              | Nome                   | text          | Opcional (mantém valor anterior se vazio)          |
+| editarperfil.html              | E-mail                 | text          | Opcional (mantém valor anterior se vazio)          |
+| editarperfil.html              | Senha                  | password      | Opcional (mantém valor anterior se vazio)          |
+| editarperfil_gerente.html      | Nome                   | text          | Opcional (mantém valor anterior se vazio)          |
+| editarperfil_gerente.html      | E-mail                 | text          | Opcional (mantém valor anterior se vazio)          |
+| editarperfil_gerente.html      | Senha                  | password      | Opcional (mantém valor anterior se vazio)          |
+| marcar_na_minha_agenda.html    | Data                   | date          | Obrigatório (não pode ser no passado)              |
+| marcar_na_minha_agenda.html    | Horário                | select        | Obrigatório (08:00 às 20:00)                       |
+| previsao_do_tempo.html         | Cidade                 | text          | Obrigatório (preenchimento)                        |
+| previsao_do_tempo.html         | Estado                 | text          | Opcional                                           |
