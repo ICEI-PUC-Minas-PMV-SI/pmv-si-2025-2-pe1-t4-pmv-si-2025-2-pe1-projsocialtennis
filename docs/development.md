@@ -125,7 +125,7 @@ Acesse a pasta src/ e abra qualquer uma das páginas .html em um navegador web (
 | cadastro.html                  | Nome                   | text          | Obrigatório (preenchimento)                        |
 | cadastro.html                  | E-mail                 | text          | Obrigatório (preenchimento)                        |
 | cadastro.html                  | Senha                  | password      | Obrigatório (preenchimento)                        |
-| cadastro.html                  | Perfil                 | select        | Obrigatório (Tenista ou Gerente de quadra)         |
+| cadastro.html                  | Perfil                 | select        | Obrigatório (tenista ou gerente de quadra)         |
 | login.html                     | E-mail                 | text          | Obrigatório (preenchimento)                        |
 | login.html                     | Senha                  | password      | Obrigatório (preenchimento)                        |
 | recuperar_senha_passo1.html    | E-mail                 | text          | Obrigatório (preenchimento)                        |
@@ -135,7 +135,7 @@ Acesse a pasta src/ e abra qualquer uma das páginas .html em um navegador web (
 | escolha_onde_jogar.html        | Cidade                 | text          | Obrigatório                                        |
 | escolha_onde_jogar.html        | Bairro                 | text          | Opcional                                           |
 | adicionar_quadras.html         | Nome da quadra         | text          | Obrigatório (preenchimento)                        |
-| adicionar_quadras.html         | Preço                  | text          | Opcional (máscara R$ XX,XX, apenas números)        |
+| adicionar_quadras.html         | Preço                  | text          | Opcional (máscara "R$ XX,XX", apenas números)      |
 | adicionar_quadras.html         | Horário                | text          | Obrigatório (preenchimento)                        |
 | adicionar_quadras.html         | Contato                | text          | Obrigatório (máscara telefone, apenas números)     |
 | adicionar_quadras.html         | Estado                 | select        | Obrigatório (27 estados brasileiros)               |
@@ -145,9 +145,9 @@ Acesse a pasta src/ e abra qualquer uma das páginas .html em um navegador web (
 | adicionar_quadras.html         | Número                 | text          | Obrigatório (preenchimento)                        |
 | adicionar_quadras.html         | Complemento            | text          | Obrigatório (preenchimento)                        |
 | adicionar_quadras.html         | Regras de Uso          | textarea      | Obrigatório (preenchimento)                        |
-| adicionar_quadras.html         | Status da quadra       | select        | Obrigatório (Ativa ou Inativa)                     |
+| adicionar_quadras.html         | Status da quadra       | select        | Obrigatório (ativa ou inativa)                     |
 | editar_quadras.html            | Nome da quadra         | text          | Obrigatório (preenchimento)                        |
-| editar_quadras.html            | Preço                  | text          | Opcional (máscara R$ XX,XX, apenas números)        |
+| editar_quadras.html            | Preço                  | text          | Opcional (máscara "R$ XX,XX", apenas números)      |
 | editar_quadras.html            | Horário                | text          | Obrigatório (preenchimento)                        |
 | editar_quadras.html            | Contato                | text          | Obrigatório (máscara telefone, apenas números)     |
 | editar_quadras.html            | Estado                 | select        | Obrigatório (27 estados brasileiros)               |
@@ -157,7 +157,7 @@ Acesse a pasta src/ e abra qualquer uma das páginas .html em um navegador web (
 | editar_quadras.html            | Número                 | text          | Obrigatório (preenchimento)                        |
 | editar_quadras.html            | Complemento            | text          | Obrigatório (preenchimento)                        |
 | editar_quadras.html            | Regras de Uso          | textarea      | Obrigatório (preenchimento)                        |
-| editar_quadras.html            | Status da quadra       | select        | Obrigatório (Ativa ou Inativa)                     |
+| editar_quadras.html            | Status da quadra       | select        | Obrigatório (ativa ou inativa)                     |
 | editarperfil.html              | Nome                   | text          | Opcional (mantém valor anterior se vazio)          |
 | editarperfil.html              | E-mail                 | text          | Opcional (mantém valor anterior se vazio)          |
 | editarperfil.html              | Senha                  | password      | Opcional (mantém valor anterior se vazio)          |
