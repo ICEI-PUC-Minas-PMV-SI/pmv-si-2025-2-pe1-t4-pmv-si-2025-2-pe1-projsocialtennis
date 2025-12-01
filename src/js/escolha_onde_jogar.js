@@ -24,8 +24,15 @@ function escolherQuadras() {
     var bairro = document.getElementById("bairro").value;
 
     // Verificar se os campos obrigatórios estão preenchidos
-    if (estado == "" || cidade == "") {
-        alert("Por favor, preencha todos os campos obrigatórios (CIDADE e ESTADO).");
+    if (estado == "") {
+        alert("Por favor, selecione o estado.");
+        document.getElementById("estado").focus();
+        return;
+    }
+    
+    if (cidade == "") {
+        alert("Por favor, preencha a cidade.");
+        document.getElementById("cidade").focus();
         return;
     }
 
@@ -34,11 +41,9 @@ function escolherQuadras() {
     localStorage.setItem("cidadeBusca", cidade);
     localStorage.setItem("bairroBusca", bairro);
 
-    // Redirecionar para a página de quadras disponíveis
+    // página de quadras disponíveis
     window.location.href = "quadras_disponiveis.html";
 }
-
-// Quando a página carregar, adicionar os eventos nos botões
 window.onload = function() {
     // Botão de previsão do tempo
     var botaoPrevisao = document.getElementById("btn-previsao");
