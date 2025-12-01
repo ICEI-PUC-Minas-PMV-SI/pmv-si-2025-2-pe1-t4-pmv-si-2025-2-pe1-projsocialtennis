@@ -157,3 +157,38 @@ main h1 {
   color: red;
   margin-bottom: 10px;
 }
+/* Agendamento */
+.botoes-agendamento {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.btn-alterar {
+    background-color: #007dc6;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-alterar:hover {
+    background-color: #005a8c;
+}
+
+.btn-cancelar {
+    background-color: #dc3545;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-cancelar:hover {
+    background-color: #a71d2a;
+}
