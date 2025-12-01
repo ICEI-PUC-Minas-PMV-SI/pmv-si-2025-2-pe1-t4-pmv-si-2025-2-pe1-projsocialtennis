@@ -1,5 +1,66 @@
 // Arquivo JavaScript para adicionar quadras
 
+// Funcao para verificar se ja existe uma quadra com esse nome
+function verificarNomeQuadraExistente(nomeQuadra) {
+    // Pegar todas as quadras do localStorage
+    var quadras = localStorage.getItem("quadras");
+    
+    // Se nao tiver nenhuma quadra, retorna false (nao existe)
+    if (quadras == null) {
+        return false;
+    }
+    
+    // Transformar em array
+    quadras = JSON.parse(quadras);
+    
+    // Procurar se ja existe uma quadra com esse nome
+    for (var i = 0; i < quadras.length; i++) {
+        // Comparar os nomes em minusculo para evitar problemas
+        var nomeExistente = quadras[i].nome.toLowerCase();
+        var nomeNovo = nomeQuadra.toLowerCase();
+        
+        if (nomeExistente == nomeNovo) {
+            return true; // Ja existe uma quadra com esse nome
+        }
+    }
+    
+    return false; // Nao existe quadra com esse nome
+}
+
+// Funcao para verificar nome em tempo real enquanto digita
+function verificarNomeEmTempoReal() {
+    var nome = document.getElementById("nome").value;
+    var avisoNome = document.getElementById("avisoNome");
+    
+    // Se o aviso nao existir, criar ele
+    if (avisoNome == null) {
+        avisoNome = document.createElement("span");
+        avisoNome.id = "avisoNome";
+        avisoNome.style.fontSize = "12px";
+        avisoNome.style.marginLeft = "10px";
+        avisoNome.style.display = "block";
+        avisoNome.style.marginTop = "5px";
+        
+        var campoNome = document.getElementById("nome");
+        campoNome.parentNode.appendChild(avisoNome);
+    }
+    
+    // Se o nome estiver vazio, limpar o aviso
+    if (nome == "") {
+        avisoNome.innerHTML = "";
+        return;
+    }
+    
+    // Verificar se o nome ja existe
+    if (verificarNomeQuadraExistente(nome) == true) {
+        avisoNome.innerHTML = "⚠️ Este nome já está em uso!";
+        avisoNome.style.color = "red";
+    } else {
+        avisoNome.innerHTML = "✓ Nome disponível";
+        avisoNome.style.color = "green";
+    }
+}
+
 // Função para aplicar máscara de preço
 function aplicarMascaraPreco() {
     var campo = document.getElementById("preco");
@@ -98,6 +159,13 @@ function adicionarQuadra(event) {
         return;
     }
     
+    // VERIFICAR SE JA EXISTE UMA QUADRA COM ESSE NOME
+    if (verificarNomeQuadraExistente(nome) == true) {
+        alert("Já existe uma quadra cadastrada com este nome!\n\nPor favor, escolha um nome diferente para sua quadra.");
+        document.getElementById("nome").focus();
+        return;
+    }
+    
     // Determinar o tipo e valor
     var tipo = "";
     var valor = "";
@@ -135,7 +203,7 @@ function adicionarQuadra(event) {
         quadras = JSON.parse(quadras);
     }
     
-    // Adicionar a nova quadra
+    // Adicionar  nova quadra
     quadras.push(quadra);
     
     // Salvar no localStorage
@@ -150,21 +218,26 @@ function adicionarQuadra(event) {
 
 // Quando a página carregar
 window.onload = function() {
-    // Adicionar evento no campo de preço
+    // Campo de preço
     var campoPreco = document.getElementById("preco");
     campoPreco.addEventListener("keydown", validarPreco);
     campoPreco.addEventListener("keyup", aplicarMascaraPreco);
     
-    // Adicionar evento no campo de telefone
+    // Campo de telefone
     var campoContato = document.getElementById("contato");
     campoContato.addEventListener("keydown", validarTelefone);
     campoContato.addEventListener("keyup", aplicarMascaraTelefone);
     
-    // Adicionar evento no botão cancelar
+    // Botão cancelar
     var botaoCancelar = document.querySelector(".btn-previsao");
     botaoCancelar.onclick = cancelar;
     
-    // Adicionar evento no formulário
+    // Formulário
     var formulario = document.querySelector(".form-quadra");
     formulario.onsubmit = adicionarQuadra;
+    
+    // Adicionar evento para verificar nome em tempo real
+    var campoNome = document.getElementById("nome");
+    campoNome.addEventListener("keyup", verificarNomeEmTempoReal);
+    campoNome.addEventListener("blur", verificarNomeEmTempoReal);
 }
