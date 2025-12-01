@@ -1,5 +1,3 @@
-/* ===== SEÇÃO 1 ===== */
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -43,7 +41,29 @@
     background-color: #157347;
 }
 
-/* ===== SEÇÃO 2 ===== */
+.botoes-acesso {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn-login {
+    background-color: #1e1e2f;
+}
+
+.btn-login:hover {
+    background-color: #007dc6;
+}
+
+.btn-cadastro {
+    background-color: #198754;
+}
+
+.btn-cadastro:hover {
+    background-color: #157347;
+}
+
 .sobre {
     padding: 80px 20px;
     text-align: center;
