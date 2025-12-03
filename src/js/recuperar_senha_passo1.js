@@ -1,5 +1,3 @@
-// Arquivo JavaScript para recuperar senha - Passo 1
-
 // Função que vai ser chamada quando clicar no botão continuar
 function verificarEmail() {
     // Pegar o valor do campo de email
