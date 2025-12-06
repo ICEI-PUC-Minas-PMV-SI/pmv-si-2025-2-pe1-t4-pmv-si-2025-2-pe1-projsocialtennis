@@ -8,21 +8,20 @@ message: >-
   Web da PUC Minas.
 type: software
 authors:
-  - given-names: Aluno 1
-    family-names: Luana Cristina Eleutério
+  - given-names: Luana Cristina
+    family-names: Eleutério
     email: lceleuterio@sga.pucminas.br
     affiliation: PUC Minas
-  - given-names: Aluno 2
-    family-names: Rodrigo Luiz de Lima Ferreira
+  - given-names: Rodrigo Luiz
+    family-names: de Lima Ferreira
     email: rllferreira@sga.pucminas.br
     affiliation: PUC Minas
-  - given-names: Aluno 3
-    family-names: Victor Augusto Lobatto da Mata
+  - given-names: Victor Augusto
+    family-names: Lobatto da Mata
     email: valmata@sga.pucminas.br
     affiliation: PUC Minas
-  - given-names: Marco 
-    name-particle: 'B'
-    family-names: Rodrigo Costa
+  - given-names: Marco Rodrigo
+    family-names: Costa
     name-suffix: Prof.
     email: marco.rodrigo@sga.pucminas.br
     affiliation: PUC Minas
@@ -38,4 +37,4 @@ keywords:
   - JavaScript
   - Tênis
   - Quadras de tênis
-date-released: '2025-11-23'
+date-released: '2025-12-07'
