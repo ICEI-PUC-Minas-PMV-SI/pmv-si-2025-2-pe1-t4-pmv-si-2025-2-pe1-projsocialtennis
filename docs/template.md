@@ -1,10 +1,9 @@
 <div align="justify">
 
-## Template padrão do site
+# Template padrão do site
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
-
-Explique as guias de estilo utilizadas no seu projeto.
+-- Imagem mockup tenista
+-- Imagem mockup gerente
 
 ## Design
 
@@ -13,28 +12,22 @@ Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo d
 
 ## Cores
 
+As seguintes cores abaixo foram escolhidas para remeter as quadras de tênis:
+
 ![Paleta de Cores](img/paletas_de_cores.png)
 
 ## Tipografia
+
+A escolha da fonte "Nunito" foi com o objetivo de trazer modernidade e facilidade na leitura.
 
 ![Tipografia](img/nunito_font.png)
 
 
 ## Iconografia
 
+A logo abaixo foi a escolhida por compor raquetes e bola de tênis que remetem a esse esporte e o ícone que traz a ideia de localização das quadras dentro da aplicação.
+
 ![logo oficial](/src/styles/logo-oficial.png)
 
-Defina os ícones que serão utilizados e suas respectivas funções.
 
-Apresente os estilos CSS criados para cada um dos elementos apresentados.
-Outras seções podem ser adicionadas neste documento para apresentar padrões de componentes, de menus, etc.
-
-
-> **Links Úteis**:
->
-> -  [Como criar um guia de estilo de design da Web](https://edrodrigues.com.br/blog/como-criar-um-guia-de-estilo-de-design-da-web/#)
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
 </div>
