@@ -4,6 +4,8 @@
 
 ## Conjunto de Slides (Estrutura)
 
+Apresentação final -- arquivo com os slides da apresentação final
+
 ## Vídeo de demonstração
  [Vídeo de demonstração](https://sgapucminasbr-my.sharepoint.com/personal/1629415_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=IQCmZWLwI2yoQLPjJ8hTq3oiAYUfUVMVOsIA797go9UsCas&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fEVKSl) - arquivo com a demonstração do funcionamento do sistema.
 
