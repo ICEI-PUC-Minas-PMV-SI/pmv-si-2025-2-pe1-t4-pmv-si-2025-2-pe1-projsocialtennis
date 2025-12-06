@@ -1,3 +1,40 @@
+## Título do Projeto
+
+Social Tennis
+
+## Identidade Visual (Marca, Design)
+
+## Conjunto de Slides (Estrutura)
+
+## Vídeo de demonstração
+ [Vídeo de demonstração]([./sample-video.mp4](https://sgapucminasbr-my.sharepoint.com/personal/1629415_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=IQCmZWLwI2yoQLPjJ8hTq3oiAYUfUVMVOsIA797go9UsCas&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fEVKSl)) - arquivo com a demonstração do funcionamento do sistema.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Apresentação
 
 Faça uma apresentação de um resumo de todos o processo de desenvolvimento e no final apresente a solução desenvolvida, usando um pequeno vídeo.
@@ -13,7 +50,7 @@ O conjunto de slides deve ser apresentado em um arquivo PowerPoint ou PDF. A apr
 
 ## Título do Projeto
 
-Nome e marca do projeto
+Social Tennis
 
 ## Identidade Visual (Marca, Design)
 
