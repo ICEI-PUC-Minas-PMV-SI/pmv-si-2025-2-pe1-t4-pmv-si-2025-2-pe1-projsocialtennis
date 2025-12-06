@@ -7,7 +7,7 @@ Social Tennis
 ## Conjunto de Slides (Estrutura)
 
 ## Vídeo de demonstração
- [Vídeo de demonstração]([./sample-video.mp4](https://sgapucminasbr-my.sharepoint.com/personal/1629415_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=IQCmZWLwI2yoQLPjJ8hTq3oiAYUfUVMVOsIA797go9UsCas&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fEVKSl)) - arquivo com a demonstração do funcionamento do sistema.
+ [Vídeo de demonstração](https://sgapucminasbr-my.sharepoint.com/personal/1629415_sga_pucminas_br/_layouts/15/guestaccess.aspx?share=IQCmZWLwI2yoQLPjJ8hTq3oiAYUfUVMVOsIA797go9UsCas&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fEVKSl) - arquivo com a demonstração do funcionamento do sistema.
 
 
 
@@ -34,8 +34,8 @@ Social Tennis
 
 
 
-
-# Apresentação
+:-----------------------:
+Apresentação
 
 Faça uma apresentação de um resumo de todos o processo de desenvolvimento e no final apresente a solução desenvolvida, usando um pequeno vídeo.
 
@@ -48,11 +48,11 @@ Liste os arquivos produzidos e postados nesta pasta, com suas localizaçãoes e 
 
 O conjunto de slides deve ser apresentado em um arquivo PowerPoint ou PDF. A apresentação do projeto deve contemplar todos os itens trabalhados nos demais artefatos. Alguns aspectos que devem ser contemplados na apresentação são listados a seguir.
 
-## Título do Projeto
+Título do Projeto
 
 Social Tennis
 
-## Identidade Visual (Marca, Design)
+Identidade Visual (Marca, Design)
 
 O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do contexto da solução proposta, de forma a manter a temática do problema.
 
@@ -61,7 +61,7 @@ O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do conte
 > - [7 dicas de design para criar apresentações de PowerPoint incríveis e eficientes](https://www.shutterstock.com/pt/blog/7-dicas-de-design-para-criar-apresentacoes-de-powerpoint-incriveis-e-eficientes)
 > - [Especialista do TED dá 10 dicas para criar slides eficazes e bonitos](https://soap.com.br/blog/especialista-do-ted-da-10-dicas-para-criar-slides-eficazes-e-bonitos)
 
-## Conjunto de Slides (Estrutura)
+Conjunto de Slides (Estrutura)
 
 O grupo deve distribuir de forma coerente o conteúdo a ser apresentado, dentro do tempo determinado. Importante ressaltar a importância da descrição clara de todo o andamento do projeto, insumos gerados e requisitos atendidos. Os arquivos devem ser postados na pasta [presentation](../presentation)
  
@@ -70,7 +70,7 @@ O grupo deve distribuir de forma coerente o conteúdo a ser apresentado, dentro 
 > - [Top Tips for Effective Presentations](https://www.skillsyouneed.com/present/presentation-tips.html)
 > - [How to make a great presentation](https://www.ted.com/playlists/574/how_to_make_a_great_presentation)
 
-## Vídeo de demonstração
+Vídeo de demonstração
 
 O grupo deverá gravar um vídeo de demonstração do site desenvolvido.
 
