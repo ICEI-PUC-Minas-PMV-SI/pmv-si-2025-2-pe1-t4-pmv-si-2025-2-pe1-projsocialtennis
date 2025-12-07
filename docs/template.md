@@ -2,8 +2,7 @@
 
 # Template padrão do site
 
--- Imagem mockup tenista
--- Imagem mockup gerente
+![Mockup Homepage](img/mockup_homepage_socialtennis.png)
 
 ## Design
 
