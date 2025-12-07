@@ -14,13 +14,13 @@ Acesso: https://socialtennis.onrender.com
 
 ## Integrantes
 
-* Luana Cristina Eleuterio
-* Rodrigo Luiz de Lima Ferreira
-* Victor Augusto Lobatto da Mata
+* Luana Cristina Eleuterio;
+* Rodrigo Luiz de Lima Ferreira;
+* Victor Augusto Lobatto da Mata.
 
 ## Orientador
 
-* Marco Rodrigo Costa
+* Marco Rodrigo Costa.
 
 # Planejamento
 
@@ -34,7 +34,7 @@ Acesso: https://socialtennis.onrender.com
 
 # Código
 
-<li><a href="src/README.md"> Código Fonte</a></li>
+<li><a href="src"> Código Fonte</a></li>
 
 # Apresentação
 
