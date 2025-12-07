@@ -4,6 +4,8 @@
 
 ### Página home:
 ![Mockup Homepage](img/mockup_homepage_socialtennis.png)
+![Mockup Tenista](img/mockup_tenista_escolha_onde_jogar.png)
+![Mockup Gerente de Quadra](img/mockup_gerente_adicionar_quadra.png)
 
 ## Design
 
