@@ -30,20 +30,20 @@ Basta fazer upload dos arquivos para o servidor ou conectar o repositório à pl
 ## Histórico de versões
 
 ### [1.0] - 26/10/2025
-#### Adicionado
+#### Adicionado:
 - Estrutura inicial do projeto em HTML5;
 - Estilização com CSS3;
 - Responsividade para dispositivos móveis.
 
 ### [2.0] - 23/11/2025
-#### Adicionado
+#### Adicionado:
 - Melhorias na estrutura do projeto em HTML5;
 - Melhorias na estilização com CSS3;
 - Melhorias na responsividade para dispositivos móveis;
 - Funcionalidades interativas com JavaScript.
 
 ### [3.0] - 07/12/2025
-#### Adicionado
+#### Adicionado:
 - Melhorias na estrutura do projeto em HTML5;
 - Melhorias na estilização com CSS3;
 - Melhorias na responsividade para dispositivos móveis;
