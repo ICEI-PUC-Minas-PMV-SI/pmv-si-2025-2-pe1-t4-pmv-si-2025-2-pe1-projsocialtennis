@@ -2,9 +2,13 @@
 
 # Template padrão do site
 
-### Página home:
+### Página "Home":
 ![Mockup Homepage](img/mockup_homepage_socialtennis.png)
+
+### Página "Escolha onde jogar" (referente ao tenista):
 ![Mockup Tenista](img/mockup_tenista_escolha_onde_jogar.png)
+
+### Página "Adicionar quadra" (referente ao gerente de quadra):
 ![Mockup Gerente de Quadra](img/mockup_gerente_adicionar_quadra.png)
 
 ## Design
