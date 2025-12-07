@@ -93,5 +93,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 As metodologias utilizadas no projeto são SCRUM com controle de tarefas em KANBAN.
 
 Quadro Kanban: 
+![Quadro Kanban - Versão final](img/quadro_kanban_socialtennis.png.png)
 https://trello.com/invite/b/68f194b1aa6c90818d4b6641/ATTI6f1c8a693625ad891739b774ebe41c9aC617A2D1/projeto-social-tennis-2025-puc-mg
 </div>
