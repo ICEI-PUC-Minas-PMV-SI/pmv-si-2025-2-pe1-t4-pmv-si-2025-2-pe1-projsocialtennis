@@ -2,7 +2,7 @@
 
 # Template padrão do site
 
-Página home:
+### Página home:
 ![Mockup Homepage](img/mockup_homepage_socialtennis.png)
 
 ## Design
