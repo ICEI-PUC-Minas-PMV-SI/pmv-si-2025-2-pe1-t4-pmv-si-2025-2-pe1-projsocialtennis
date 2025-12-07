@@ -1,3 +1,4 @@
+<div align="justify">
 # Instruções de utilização
 
 ## Instalação do Site
@@ -36,13 +37,14 @@ Basta fazer upload dos arquivos para o servidor ou conectar o repositório à pl
 ### [2.0] - 23/11/2025
 #### Adicionado
 - Melhorias na estrutura do projeto em HTML5;
-- Melhorias na estilização com CSS3.
-- Melhorias na responsividade para dispositivos móveis.
+- Melhorias na estilização com CSS3;
+- Melhorias na responsividade para dispositivos móveis;
 - Funcionalidades interativas com JavaScript.
 
 ### [3.0] - 07/12/2025
 #### Adicionado
 - Melhorias na estrutura do projeto em HTML5;
-- Melhorias na estilização com CSS3.
-- Melhorias na responsividade para dispositivos móveis.
+- Melhorias na estilização com CSS3;
+- Melhorias na responsividade para dispositivos móveis;
 - Melhorias nas funcionalidades interativas com JavaScript.
+</div>
